@@ -1,0 +1,31 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-registrars",
+    "name": "hureg",
+    "license": "MIT",
+    "category": "registrar",
+    "description": {
+        "name": "HuReg regisztrátori modul",
+        "tagline": ".hu domain regisztráció integráció",
+        "long": "The sample files here demonstrates how a registrar module for WHMCS should be structured and exercises all supported functionality.",
+        "features": [
+            "Provide functionality for registering, transferring and renewing of domains"
+        ]
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "homepage": "https:\/\/www.mediaplatz.com\/",
+        "learn_more": "https:\/\/www.mediaplatz.com\/",
+        "email": "hello@mediaplatz.com",
+        "support_url": "https:\/\/help.mediaplatz.com\/",
+        "docs_url": ""
+    },
+    "authors": [
+        {
+            "name": "MediaPlatz Ltd.",
+            "homepage": "https:\/\/www.mediaplatz.com\/"
+        }
+    ]
+}

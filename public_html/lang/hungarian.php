@@ -67,7 +67,6 @@ $_LANG['announcementsdescription'] = "Tekintse meg legfrissebb híreket és beje
 $_LANG['announcementsnone'] = "Nincsenek megjelenítendő közlemények";
 $_LANG['announcementsrss'] = "RSS-hírcsatornák megtekintése";
 $_LANG['announcementstitle'] = "Közlemények";
-$_LANG['announcementscontinue'] = "Tovább olvasom";
 $_LANG['bannedbanexpires'] = "Tilalom lejár";
 $_LANG['bannedbanreason'] = "A tilalom oka";
 $_LANG['bannedhasbeenbanned'] = "már le van tiltva";
@@ -118,7 +117,7 @@ $_LANG['clientareaaddonorderconfirmation'] = "Köszönjük. a kiegészítőt sik
 $_LANG['clientareaaddonpricing'] = "Árképzés";
 $_LANG['clientareaaddonsfor'] = "Kiegészítések";
 $_LANG['clientareaaddress1'] = "Cím 1. sora";
-$_LANG['clientareaaddress2'] = "Cím 2. sora";
+$_LANG['clientareaaddress2'] = "Házszám";
 $_LANG['clientareabwlimit'] = "Sávszélesség korlátozása";
 $_LANG['clientareabwusage'] = "Sávszélesség használat";
 $_LANG['clientareacancel'] = "Mégsem";
@@ -167,8 +166,8 @@ $_LANG['clientareaerrorcity2'] = "A település neve csak betűket és szóköz�
 $_LANG['clientareaerrorcountry'] = "Kérjük, válassza ki az országot a legördülő listából";
 $_LANG['clientareaerroremail'] = "Nem adta meg email címét";
 $_LANG['clientareaerroremailinvalid'] = "A megadott e-mail cím érvénytelen.";
-$_LANG['clientareaerroremailexists'] = "A megadott e-mail cím nem használható.";
-$_LANG['clientareaerrorusernotassoc'] = "A megadott e-mail cím nem használható.";
+$_LANG['clientareaerroremailexists'] = "The email address entered is not available for use.";
+$_LANG['clientareaerrorusernotassoc'] = "The email address entered is not available for use.";
 $_LANG['clientareaerrorfirstname'] = "Nem adta meg keresztnevét";
 $_LANG['clientareaerrorfirstname2'] = "A Keresztnév csak betűket tartalmazhat";
 $_LANG['clientareaerrorisrequired'] = "szükséges";
@@ -183,7 +182,6 @@ $_LANG['clientareaerrorpostcode'] = "Nem adta meg az irányítószámot";
 $_LANG['clientareaerrorpostcode2'] = "Az irányítószám csak betűket, számokat és szóközöket tartalmazhat";
 $_LANG['clientareaerrors'] = "A következő hibák történtek:";
 $_LANG['clientareaerrorstate'] = "Nem adta meg az államot/megyét";
-$_LANG['clientareaerrorlanguage'] = "Nem biztosítottak érvényes nyelvet";
 $_LANG['clientareaexpired'] = "Lejárt";
 $_LANG['clientareafirstname'] = "Keresztnév";
 $_LANG['clientareafraud'] = "Csalás";
@@ -205,6 +203,9 @@ $_LANG['clientareamodifynameservers'] = "Névszerverek módosítása";
 $_LANG['clientareamodifywhoisinfo'] = "WHOIS információk módosítása";
 $_LANG['clientareanameserver'] = "Névszerver";
 $_LANG['clientareanavaddcontact'] = "Új kapcsolattartó hozzáadása";
+$_LANG['domainownerinfo'] = "Domain tulajdonosi adatok";
+$_LANG['domainAlternativeOwner'] = "Megadhatja hogy ki legyen a domain jogi tulajdonosa";
+$_LANG['clientareanavadddomainowner'] = "Új domain tulajdonos hozzáadása";
 $_LANG['clientareanavchangecc'] = "Hitelkártya-adatok módosítása";
 $_LANG['clientareanavchangepw'] = "Jelszó módosítása";
 $_LANG['clientareanavdetails'] = "Saját adatok";
@@ -244,7 +245,6 @@ $_LANG['clientareaupdateyourdetails'] = "Adatok frissítése";
 $_LANG['clientareaused'] = "Használt";
 $_LANG['clientareaviewaddons'] = "Elérhető kiegészítések megtekintése";
 $_LANG['clientareaviewdetails'] = "Részletek megtekintése";
-$_LANG['clientarealanguage'] = "Nyelv";
 $_LANG['clientlogin'] = "Ügyfél bejelentkezés";
 $_LANG['clientregisterheadertext'] = "Kérjük, töltse ki az alábbi mezőket a regisztrációhoz.";
 $_LANG['clientregistertitle'] = "Regisztráció";
@@ -262,7 +262,6 @@ $_LANG['contactheader'] = "Ha bármilyen kérdése merült fel, vegye fel velün
 $_LANG['contactmessage'] = "Üzenet";
 $_LANG['contactname'] = "Név";
 $_LANG['contactsend'] = "Üzenet küldése";
-$_LANG['contactUs'] = "Lépjen kapcsolatba velünk";
 $_LANG['contactsent'] = "Köszönjük! Az üzenetet elküldtük.";
 $_LANG['contactsubject'] = "Tárgy";
 $_LANG['contacttitle'] = "Értékesítés előtti kapcsolatfelvétel";
@@ -354,7 +353,7 @@ $_LANG['domainregisternsns'] = "Névszerver";
 $_LANG['domainregisternsreg'] = "Névszerver regisztrálása";
 $_LANG['domainregisternsregsuccess'] = "A névszerverét sikeresen regisztrálva";
 $_LANG['domainregistrantchoose'] = "Válassza ki a használni kívánt névjegyet";
-$_LANG['domainregistrantinfo'] = "Domain regisztráló információk";
+$_LANG['domainregistrantinfo'] = "Admin/Zóna/Tech kapcsolattartói adatok";
 $_LANG['domainregistrarlock'] = "Regisztrátor zárolása";
 $_LANG['domainregistrarlockdesc'] = "Engedélyezze a regisztráció zárolását (Ajánlott). A jogosulatlan átregisztrálás megelőzhető, ha be van állítva. Később bármikor feloldhatja";
 $_LANG['domainregistration'] = "Domain regisztráció";
@@ -386,7 +385,7 @@ $_LANG['domainunavailable1'] = "Elnézést!";
 $_LANG['domainunavailable2'] = "már foglalt!";
 $_LANG['domainreserved'] = "Fenntartott";
 $_LANG['domainreserved1'] = "Domain";
-$_LANG['domainreserved2'] = "rendelkezésre áll, de fenntartott.";
+$_LANG['domainreserved2'] = "rendelkezésre áll, de a fenntartott.";
 $_LANG['domainviewwhois'] = "whois jelentés megtekintése";
 $_LANG['downloaddescription'] = "Leírás";
 $_LANG['downloadloginrequired'] = "Hozzáférés megtagadva - Be kell jelentkeznie, hogy letöltse ezt a fájlt";
@@ -538,8 +537,6 @@ $_LANG['networkissuestitle'] = "Hálózati probléma";
 $_LANG['networkissuestypeother'] = "Egyéb";
 $_LANG['networkissuestypeserver'] = "Szerver";
 $_LANG['networkissuestypesystem'] = "Rendszer";
-$_LANG['networkIssuesAware'] = "Tisztában vagyunk egy potenciálisan a szolgáltatásra gyakorolt hatással.";
-$_LANG['networkIssuesScheduled'] = "Vannak közelgő karbantartási események, amelyek hatással lehetnek szolgáltatásainkra.";
 $_LANG['newpassword'] = "Új jelszó";
 $_LANG['nextpage'] = "Következő oldal";
 $_LANG['no'] = "Nem";
@@ -547,7 +544,7 @@ $_LANG['nocarddetails'] = "Nem létező kártyaadatok";
 $_LANG['none'] = "Nincs";
 $_LANG['norecordsfound'] = "Nem található rekord";
 $_LANG['or'] = "vagy";
-$_LANG['orderadditionalrequiredinfo'] = "További információk";
+$_LANG['orderadditionalrequiredinfo'] = "További szükséges információk";
 $_LANG['orderaddon'] = "Kiegészítő";
 $_LANG['orderaddondescription'] = "Az alábbi Kiegészítések állnak rendelkezésre ehhez a termékhez. Az alábbiakban választhat kiegészítést.";
 $_LANG['orderavailable'] = "Elérhető";
@@ -708,6 +705,7 @@ $_LANG['serverchangepasswordsuccessful'] = "Jelszó sikeresen! megváltozott";
 $_LANG['serverchangepasswordupdate'] = "Frissítés";
 $_LANG['serverhostname'] = "Hosztnév";
 $_LANG['serverlogindetails'] = "Bejelentkezési adatok";
+$_LANG['servername'] = "Szerver";
 $_LANG['serverns1prefix'] = "NS1 előtag";
 $_LANG['serverns2prefix'] = "NS2 előtag";
 $_LANG['serverpassword'] = "Jelszó";
@@ -725,10 +723,13 @@ $_LANG['serverusername'] = "Felhasználónév";
 $_LANG['show'] = "Mutat";
 $_LANG['ssladmininfo'] = "Adminisztratív kapcsolat";
 $_LANG['ssladmininfodetails'] = "Az elérhetőségi adatok nem jelennek meg a tanúsítványban, csak a rendeléssel kapcsolatosan használjuk azokat.";
+$_LANG['sslcertapproveremail'] = "Tanúsítvány megerősítő email";
+$_LANG['sslcertapproveremaildetails'] = "Kérük válassza ki, hogy hová küldjük a megerősítő emailt";
 $_LANG['sslcertinfo'] = "SSL Tanúsítvány adatai";
 $_LANG['pleasechooseone'] = "Kérjük, válasszon egyet...";
 $_LANG['sslcerttype'] = "Tanúsítvány típusa";
 $_LANG['sslconfigcomplete'] = "A konfiguráció teljes";
+$_LANG['sslconfigcompletedetails'] = "Az SSL tanúsítvány konfiguráció már befejeződött, és elküldte a hitelesítésszolgáltató a hitelesítési kérelmet. Hamarosan kapnia kell egy emailt.";
 $_LANG['sslconfsslcertificate'] = "SSL Tanúsítvány";
 $_LANG['sslcsr'] = "CSR";
 $_LANG['sslerrorapproveremail'] = "Választania kell egy megerősítő e-mail címet";
@@ -739,7 +740,6 @@ $_LANG['sslorderdate'] = "Rendelés dátuma";
 $_LANG['sslserverinfo'] = "Szerver információk";
 $_LANG['sslserverinfodetails'] = "Engedélyeznie kell érvényes \"CSR\" (Tanúsítvány aláírási kérelem) állítsd be SSL tanúsítvány. A CSR egy titkosított darab szöveg, ami által generált web szerver, ahol az SSL-tanúsítvány telepítésre kerül. Ha még nem rendelkezik CSR, akkor létrehoz egy vagy kérdezze meg web tárhely szolgáltató generál az Ön számára. Szintén győződjön meg arról, adja meg a helyes adatokat, mert nem lehet változtatni után SSL-tanúsítványt állított ki.";
 $_LANG['sslservertype'] = "Web Szerver típus";
-$_LANG['ssl']['selectWebserver'] = "Select a :serverType";
 $_LANG['sslstatus'] = "Konfigurációs állapota";
 $_LANG['sslawaitingconfig'] = "Várakozás a konfigurációra";
 $_LANG['sslconfigure'] = "Konfigurálja";
@@ -836,6 +836,7 @@ $_LANG['upgradenochange'] = "Nincs változás";
 $_LANG['upgradeproductlogic'] = "A frissített árat csomag árának különbségéből számítottuk ki. A mostani csomag fel nem használt időszaka levonásra került.";
 $_LANG['upgradesummary'] = "Az alábbiakban összefoglaljuk a módosításokat a rendelésben.";
 $_LANG['usedefaultcontact'] = "Alapértelmezett kapcsolattartó (részletek fent)";
+$_LANG['usedomainownercontact'] = "Domain tulajdonosi adatokkal egyező (részletek fent)";
 $_LANG['varilogixfraudcall_callnow'] = "Hívjon most!";
 $_LANG['varilogixfraudcall_description'] = "Ennek része a csalást megelőző intézkedésekről, amit most hívni a telefonszámot regisztrált fiókjába, és kéri, hogy adjuk a fenti pin kódot. Kérjük, jegyezze fel a PIN-kódot, és amikor készen állnak a számunkra, hogy helyezze a telefonhívást, kattintson az alábbi gombra.";
 $_LANG['varilogixfraudcall_error'] = "Egy hiba történt, és nem tudtuk hívni a telefonszámot, hogy ellenőrizze a rendelést. Kérjük, forduljon ügyfélszolgálati részleg lehető legrövidebb időn belül befejezni a rendelést.";
@@ -848,13 +849,10 @@ $_LANG['welcomeback'] = "Üdvözöljük ismét";
 $_LANG['whoisresults'] = "WHOIS eredmények";
 $_LANG['yes'] = "Igen";
 $_LANG['yourdetails'] = "Adatok";
-$_LANG['user'] = "Felhasználó";
-$_LANG['loggedInAs'] = "Bejelentkezve min";
-$_LANG['viewAllPricing'] = "Az összes ár megtekintése";
-$_LANG['default'] = "Alapértelmezett";
-$_LANG['maxFileSize'] = "Maximális fájlméret: :fileSize";
 
 # Version 4.1
+
+
 
 $_LANG['clientareafiles'] = "Csatolt fájlok";
 $_LANG['clientareafilesdate'] = "Hozzáadás dátuma";
@@ -879,6 +877,8 @@ $_LANG['overagestotalbwusage'] = "Teljes sávszélesség-használat";
 
 $_LANG['affiliatescommissionspending'] = "Függőben lévő jutalékok";
 $_LANG['affiliatescommissionsavailable'] = "Elérhető jutalékok egyenlege";
+$_LANG['affiliatessignups'] = "Regisztrációk száma";
+$_LANG['affiliatesconversionrate'] = "A konverziós ráta";
 
 $_LANG['configoptionqtyminmax'] = "%s a minimum követelmény% s és a maximális %s";
 
@@ -989,6 +989,8 @@ $_LANG['orderformtitle'] = "Megrendelőlap";
 
 $_LANG['signup'] = "Regisztráció";
 $_LANG['loading'] = "Betöltés...";
+
+$_LANG['ordersummarybegin'] = "A kosara üres<br/>Kérjük, válasszon egy terméket kezdéséhez...";
 
 $_LANG['cartchooseproduct'] = "Válasszon terméket";
 $_LANG['cartconfigurationoptions'] = "Konfigurációs beállítások";
@@ -1109,6 +1111,7 @@ $_LANG['recurringpromodesc'] = "Ez a promóciós kód is tartalmaz %s ismétlőd
 # Version 4.5.2
 
 $_LANG['ajaxcartcheckout'] = "Ugrás egyenesen a pénztárhoz &raquo;";
+$_LANG['ordersummarybegin'] = "A kosara üres<br/>Kérjük, válasszon egy terméket kezdéséhez...";
 $_LANG['ajaxcartconfigreqnotice'] = "Választania kell egy domain nevet mielőtt megrendelné ezt a terméket...";
 
 # Version 5.0.0
@@ -1243,7 +1246,6 @@ $_LANG['cancel'] = "Mégse";
 $_LANG['clientareabacklink'] = "&laquo; Vissza";
 $_LANG['backtoserviceslist'] = "&laquo; Vissza ehhez Szolgáltatások listája";
 $_LANG['backtodomainslist'] = "&laquo; Vissza ehhez Domainok listája";
-$_LANG['copy'] = "Copy";
 
 $_LANG['clientareahomeorder'] = "Látogasson el a Megrendelőlap böngészhet a termékek és szolgáltatások kínálunk. Meglévő ügyfelek is vásárolni extrák és Kiegészítések itt.";
 $_LANG['clientareahomelogin'] = "Már regisztrált nálunk? Ha igen, kattintson az alábbi gombra a belépéshez.";
@@ -1253,11 +1255,13 @@ $_LANG['clientareahomeloginbtn'] = "Biztonságos Ügyfél Bejelentkezés";
 $_LANG['clientareaproductsintro'] = "Ezek a szolgáltatások már regisztrált ebben a fiókban.";
 $_LANG['clientareaproductdetailsintro'] = "Itt van egy áttekintést a termék/szolgáltatás velünk.";
 $_LANG['clientareadomainsintro'] = "Ezek a domainek már regisztrált ebben a fiókban.";
+$_LANG['invoicesintro'] = "Megtekintheti az összes számláját";
 $_LANG['quotesintro'] = "Itt megtalálja az összes ajánlatunkat";
 $_LANG['emailstagline'] = "Itt egy példányt a legújabb e-mailek általunk küldött...";
 $_LANG['supportticketsintro'] = "Beküldése és nyomon követheti minden vizsgálatot velünk itt...";
 $_LANG['addfundsintro'] = "Előzetes pénzbefizetés";
 $_LANG['registerintro'] = "Hozzon létre egy fiókot a velünk . . .";
+$_LANG['masspayintro'] = "Az összes számláját kifizetheti egyszerűen";
 $_LANG['networkstatusintro'] = "Szolgáltatás állapota Információ és Hálózat Közlemények";
 
 $_LANG['creditcardyourinfo'] = "Számlázási adatok";
@@ -1280,7 +1284,6 @@ $_LANG['pwstrengthenter'] = "Adja meg a jelszavát";
 $_LANG['pwstrengthweak'] = "Gyenge";
 $_LANG['pwstrengthmoderate'] = "Közepes";
 $_LANG['pwstrengthstrong'] = "Erős";
-$_LANG['pwstrengthrating'] = "Új jelszó értékelés";
 
 $_LANG['managing'] = "Kezelés:";
 $_LANG['information'] = "Információk";
@@ -1384,8 +1387,6 @@ $_LANG['clientareaprojects'] = "Saját Projektek";
 $_LANG['clientgroupdiscount'] = "Ügyfél Kedvezmény";
 $_LANG['billableitemshours'] = "Órák";
 $_LANG['billableitemshour'] = "Óra";
-$_LANG['billableitemsquantity'] = "Mennyiség";
-$_LANG['billableitemseach'] = "Mindegyik";
 
 $_LANG['invoicefilename'] = "Számla-";
 $_LANG['quotefilename'] = "Ajánlat-";
@@ -1526,7 +1527,6 @@ $_LANG['domaincontactdetails']['Country'] = "Ország";
 $_LANG['domaincontactdetails']['Phone'] = "Telefon";
 $_LANG['domaincontactdetails']['Phone Number'] = "Telefonszám";
 $_LANG['domaincontactdetails']['Fax'] = "Fax";
-$_LANG['domaincontactdetails']['Phone Country Code'] = "Telefon országkódja";
 
 $_LANG['serverhostnameexample'] = "pl. server1(.example.com)";
 $_LANG['serverns1prefixexample'] = "pl. ns1(.example.com)";
@@ -1661,7 +1661,6 @@ $_LANG['readyforquestions'] = "Mi készen állunk és várjuk a kérdéseket.";
 
 $_LANG['restrictedpage'] = "Hozzáférés korlátozva";
 $_LANG['enteremail'] = "Email megadása";
-$_LANG['restricted'] = "Korlátozott";
 
 $_LANG['passwordtips'] = "<strong>Tippek a jó jelszóválasztás</strong><br />Használja a kis és nagybetűket is<br />Tartalmazhat legalább egy szimbólumot (# $ ! % &amp; stb...)<br />Ne használjon szótári szavakat";
 
@@ -1787,7 +1786,6 @@ $_LANG['clientHomePanels']['recentSupportTickets'] = "Legutóbbi támogatási je
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "Nincsenek támogatási jegyek. Ha segítségre van szüksége, kérjük, <a href=\"submitticket.php\">nyisson egy jegyet</a>.";
 $_LANG['clientHomePanels']['affiliateSummary'] = "A jelenlegi jutalék egyenlege :commissionBalance. Csak akkor kell egy másik :amountUntilWithdrawalLevel előtt lehet visszavonni a bevételeit.";
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "A aktuális jutalék egyenlege :commissionBalance. Akkor vissza a bevételeit most.";
-$_LANG['clientHomePanels']['productsAndServices'] = "Böngésszen a Termékeink/Szolgáltatások között";
 
 $_LANG['upgradeNotPossible'] = "A terméket nem lehet megváltoztatni";
 $_LANG['upgradeSameProductMustExtendCycle'] = "A számlázási ciklus frissítéséhez válassza ki a jelenlegi számlázási ciklusnál nagyobb ciklust.";
@@ -1866,28 +1864,28 @@ $_LANG['projectManagement']['activeProjects'] = "Aktív projektek";
 
 # cPanel Module
 
-$_LANG['packageDomain'] = "Csomag/domain";
-$_LANG['addonsExtras'] = "Kiegészítők és extrák";
-$_LANG['purchaseActivate'] = "Megrendelés és aktiválás";
+$_LANG['cPanel']['packageDomain'] = "Csomag/domain";
+$_LANG['cPanel']['addonsExtras'] = "Kiegészítők és extrák";
+$_LANG['cPanel']['purchaseActivate'] = "Megrendelés és aktiválás";
 
-$_LANG['usageStats'] = "Használati Statisztika";
-$_LANG['diskUsage'] = "Tárhely";
-$_LANG['bandwidthUsage'] = "Adatforgalom";
-$_LANG['usageStatsBwLimitNear'] = "Ön közel elérte az adatforgalmi korlátját.";
-$_LANG['usageStatsDiskLimitNear'] = "Ön közel elérte az tárhely korlátját.";
-$_LANG['usageUpgradeNow'] = "Csomagváltás most";
-$_LANG['usageLastUpdated'] = "Utoljára frissítve";
+$_LANG['cPanel']['usageStats'] = "Használati Statisztika";
+$_LANG['cPanel']['diskUsage'] = "Tárhely";
+$_LANG['cPanel']['bandwidthUsage'] = "Adatforgalom";
+$_LANG['cPanel']['usageStatsBwLimitNear'] = "Ön közel elérte az adatforgalmi korlátját.";
+$_LANG['cPanel']['usageStatsDiskLimitNear'] = "Ön közel elérte az tárhely korlátját.";
+$_LANG['cPanel']['usageUpgradeNow'] = "Csomagváltás most";
+$_LANG['cPanel']['usageLastUpdated'] = "Utoljára frissítve";
 
-$_LANG['quickShortcuts'] = "Gyorselérés";
+$_LANG['cPanel']['quickShortcuts'] = "Gyorselérés";
 $_LANG['cPanel']['emailAccounts'] = "Email Fiókok";
 $_LANG['cPanel']['forwarders'] = "Email Továbbítók";
 $_LANG['cPanel']['autoresponders'] = "Automatikus Válasz";
-$_LANG['fileManager'] = "Fálj Kezelő";
+$_LANG['cPanel']['fileManager'] = "Fálj Kezelő";
 $_LANG['cPanel']['backup'] = "Biztonsági Mentés";
 $_LANG['cPanel']['subdomains'] = "Aldomain";
 $_LANG['cPanel']['addonDomains'] = "Addon Domain";
 $_LANG['cPanel']['cronJobs'] = "Cron Feladatok";
-$_LANG['mysqlDatabases'] = "MySQL Adatbázisok";
+$_LANG['cPanel']['mysqlDatabases'] = "MySQL Adatbázisok";
 $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
 $_LANG['cPanel']['awstats'] = "Awstats";
 
@@ -1902,7 +1900,7 @@ $_LANG['cPanel']['packageNotActive'] = "A tárhely csomag jelenleg";
 $_LANG['cPanel']['statusPendingNotice'] = "Függőben lévő fiókot nem lehet kezelni.";
 $_LANG['cPanel']['statusSuspendedNotice'] = "Nem lehet tovább használni, illetve kezelni ezt a csomagot, amíg újra aktiválódik.";
 
-$_LANG['billingOverview'] = "Számlázás áttekintése";
+$_LANG['cPanel']['billingOverview'] = "Számlázás áttekintése";
 
 $_LANG['liveHelp']['chatNow'] = "Csevegés Megnyitása";
 
@@ -1936,6 +1934,7 @@ $_LANG['shoppingCartProductPerYear'] = "<span>:price</span>/:countyr";
 $_LANG['orderForm']['findNewDomain'] = "Adjon meg egy domain nevet, vagy egy kulcsszót!";
 $_LANG['orderForm']['transferExistingDomain'] = "Regisztrálja át hozzánk a meglévő domain neveit";
 $_LANG['orderForm']['www'] = "www.";
+$_LANG['orderForm']['check'] = "Ellenőrzés";
 $_LANG['orderForm']['returnToClientArea'] = "Vissza az ügyfélkapuba";
 $_LANG['orderForm']['checkout'] = "Fizetés";
 $_LANG['orderForm']['alreadyRegistered'] = "Már regisztrált?";
@@ -1952,7 +1951,7 @@ $_LANG['orderForm']['billingAddress'] = "Számlázási Cím";
 $_LANG['orderForm']['companyName'] = "Cégnév";
 $_LANG['orderForm']['optional'] = "Opcionális";
 $_LANG['orderForm']['streetAddress'] = "Címsor 1";
-$_LANG['orderForm']['streetAddress2'] = "Címsor 2";
+$_LANG['orderForm']['streetAddress2'] = "Házszám";
 $_LANG['orderForm']['city'] = "Város";
 $_LANG['orderForm']['state'] = "Állam/Megye";
 $_LANG['orderForm']['country'] = "Ország";
@@ -2004,7 +2003,6 @@ $_LANG['orderForm']['errorNoProductGroup'] = "Nem sikerült betölteni minden te
 $_LANG['orderForm']['errorNoProducts'] = "A Termékcsoport nem tartalmaz termékeket";
 $_LANG['orderForm']['errorNoGateways'] = "Nincs elérhető fizetési átjáró, így a megrendelés nem folytatható";
 $_LANG['orderForm']['errorUnavailableGateway'] = "A kijelölt átjáró nem érhető el. Válasszon egy lehetőséget a Fizetés részletei szakaszban.";
-$_LANG['orderForm']['requiredField'] = "(a kötelező mezőket jelöli *)";
 
 $_LANG['cloudSlider']['feature01Title'] = "Maximális szerver rendelkezésre állás";
 $_LANG['cloudSlider']['feature01Description'] = "Szerver rendelkezésre állás kritikus valamennyi vállalkozás számára - úgy vélik, hogy a szívverést hosting te dolgod. Fájl és adatbázisok szerverek, e-mail és web szerverek nélkülözhetetlen része a legtöbb üzleti folyamatok, és a leállások közvetlen negatív hatással van a termelékenységre, az értékesítés, az alkalmazottak és az ügyfelek elégedettségét. Ezért biztosítva a maximális szerver uptime annyira fontos számunkra - azt akarjuk, hogy győződjön meg arról, az üzleti folyamatok futnak egészséges, így a vásárlók szívesen.";
@@ -2021,8 +2019,8 @@ $_LANG['domainChecker.additionalPricingOptions'] = "Kiegészítő árak és lehe
 
 $_LANG['orderpaymenttermfree'] = "Ingyenes";
 
-$_LANG['usageStatsBwOverLimit'] = "Túllépte a sávszélesség korlátot.";
-$_LANG['usageStatsDiskOverLimit'] = "Túllépte a lemezterület korlátot.";
+$_LANG['cPanel']['usageStatsBwOverLimit'] = "Túllépte a sávszélesség korlátot.";
+$_LANG['cPanel']['usageStatsDiskOverLimit'] = "Túllépte a lemezterület korlátot.";
 $_LANG['insufficientstockmessage'] = "Jelenleg bizonyos termékekből alacsony a kapacitásunk, így a kosár mennyiségek ennek megfelelően kiigazítottuk. További információért kérjük lépjen kapcsolatba velünk.";
 
 $_LANG['only'] = "Csak";
@@ -2224,7 +2222,7 @@ $_LANG['store']['sitelock']['features']['wordPressScan'] = "WordPress szkennelé
 $_LANG['store']['sitelock']['features']['spamBlacklistMonitoring'] = "Spam feketelista figyelése";
 $_LANG['store']['sitelock']['features']['waf'] = "Webalkalmazás tűzfala";
 $_LANG['store']['sitelock']['features']['globalCdn'] = "Globális CDN";
-$_LANG['store']['sitelock']['features']['contentAcceleration'] = "Tartalom gyorsítása";
+$_LANG['store']['sitelock']['features']['contentAcceleration '] = "Tartalom gyorsítása";
 
 $_LANG['pricingCycleShort']['monthly'] = "hó";
 $_LANG['pricingCycleShort']['quarterly'] = "3hó";
@@ -2240,33 +2238,12 @@ $_LANG['pricingCycleLong']['biennially'] = "2 Év";
 $_LANG['pricingCycleLong']['triennially'] = "3 Év";
 
 $_LANG['navManageSsl'] = "SSL tanúsítványok kezelése";
-$_LANG['almostDone'] = "Almost Done";
 
 $_LANG['invoicesPaymentPending'] = "Fizetés folyamatban";
 
 $_LANG['ssl']['changeApproverEmail'] = "Email cím módosítása";
 $_LANG['ssl']['reissueCertificate'] = "Tanúsítván újragenerálása";
 $_LANG['ssl']['retrieveCertificate'] = "Tanúsítvány lekérése";
-$_LANG['ssl']['selectValidation'] = "Select a Validation Method";
-$_LANG['ssl']['dnsMethod'] = "DNS";
-$_LANG['ssl']['emailMethod'] = "Email";
-$_LANG['ssl']['fileMethod'] = "HTTP File";
-$_LANG['ssl']['emailMethodDescription'] = "Validation will be performed by the Certificate Authority, sending an email with further instructions to the address chosen below.";
-$_LANG['ssl']['dnsMethodDescription'] = "The Certificate Authority will inspect the DNS records of the domain, looking for a specific record with a unique value. Make certain you have access to administer DNS settings for the domain to complete this setup. DNS record information will be provided upon successful configuration.";
-$_LANG['ssl']['fileMethodDescription'] = "The Certificate Authority will make an HTTP request to a path hosted within the domain, expecting the response to contain a unique value. The path and value will be provided upon successful configuration.";
-$_LANG['ssl']['selectEmail'] = "Select an Email Address";
-$_LANG['ssl']['nextSteps'] = "What's Next";
-$_LANG['ssl']['emailSteps'] = "The Certificate Authority will send an email to the email address chosen. It will contain further instructions needed to validate domain ownership. Once those steps are complete, the Certificate will be issued.";
-$_LANG['ssl']['fileSteps'] = "The Certificate Authority will now begin making requests to the URL below to validate the response is the value provided. Once a response with the specified value is detected, the Certificate will be issued.";
-$_LANG['ssl']['dnsSteps'] = "The Certificate Authority will now begin querying the domain's DNS records for a record matching the information below. Access your domain's DNS settings and create the record. Once the record is discovered, the Certificate will be issued.";
-$_LANG['ssl']['url'] = "URL";
-$_LANG['ssl']['value'] = "Value";
-$_LANG['ssl']['type'] = "Type";
-$_LANG['ssl']['host'] = "Host";
-$_LANG['ssl']['dnsRecordInformation'] = "DNS Record Information";
-$_LANG['ssl']['fileInformation'] = "File Information";
-$_LANG['ssl']['emailInformation'] = "Email Information";
-$_LANG['ssl']['dcv'] = "Domain Control Validation";
 
 $_LANG['upgradeCredit'] = "Feltöltés";
 $_LANG['upgradeCreditDescription'] = "Számítás alapján: használaton kívüli nap, a daysRemaining :totalDays az aktuális számlázási ciklus napon összesen.";
@@ -2366,6 +2343,7 @@ $_LANG['dateTime']['jan'] = "Jan";
 $_LANG['dateTime']['feb'] = "Feb";
 $_LANG['dateTime']['mar'] = "Márc";
 $_LANG['dateTime']['apr'] = "Ápr";
+$_LANG['dateTime']['may'] = "Máj";
 $_LANG['dateTime']['jun'] = "Jún";
 $_LANG['dateTime']['jul'] = "Júl";
 $_LANG['dateTime']['aug'] = "Aug";
@@ -2459,7 +2437,7 @@ $_LANG['store']['sitelock']['emergencyPlanPriorityContent'] = "A sürgősségi c
 $_LANG['store']['sitelock']['emergencyPlanAftercareTitle'] = "7 napos utógondozás";
 $_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "Kövesse nyomon az előrehaladást valós idejű frissítéseinkkel a webhely tisztításának és helyreállításának folyamata során.";
 $_LANG['store']['sitelock']['emergencyPlanUpdatesTitle'] = "Valós idejű frissítések";
-$_LANG['store']['sitelock']['emergencyPlanUpdatesContent'] = "Kövesse nyomon az előrehaladást valós idejű frissítéseinkkel a webhely tisztításának és helyreállításának folyamata során.";
+$_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "Kövesse nyomon az előrehaladást valós idejű frissítéseinkkel a webhely tisztításának és helyreállításának folyamata során.";
 $_LANG['store']['sitelock']['emergencyPlanPaymentTitle'] = "Egyszeri kifizetés";
 $_LANG['store']['sitelock']['emergencyPlanPaymentContent'] = "A sürgősségi szolgáltatás egyszeri díj ellenében áll rendelkezésre, nincsenek visszatérő díjak és előfizetés.";
 $_LANG['store']['sitelock']['emergencyPlanOnlyCost'] = "Csak :price a 7 napos védelemre";
@@ -2571,7 +2549,6 @@ $_LANG['validation']['url'] = "Az :attribute formátum érvénytelen.";
 $_LANG['orderErrorServerHostnameInvalid'] = "A kiszolgálón lévő szerver érvénytelen.";
 $_LANG['orderErrorServerNameserversInvalid'] = "A névszerver előtag érvénytelen.";
 
-$_LANG['toggleNav'] = "Váltás a navigációra";
 $_LANG['checkAll'] = "Összes ellenőrzése";
 $_LANG['uncheckAll'] = "Minden választás törlése";
 
@@ -2590,8 +2567,8 @@ $_LANG['store']['spamexperts']['cartShortDescription'] = "Add professzionális e
 
 $_LANG['store']['sitelock']['cartTitle'] = "SiteLock Webhely Biztonság";
 
-$_LANG['store']['symantec']['promo']['sidebar']['title'] = "SSL hozzáadása a webhelyéhez";
-$_LANG['store']['symantec']['promo']['sidebar']['body'] = "Aktiválja a lakat ikont és védje a felhasználók magánéletét";
+$_LANG['store']['symantec']['promo']['sidebar']['title'] = "Add SSL to your website";
+$_LANG['store']['symantec']['promo']['sidebar']['body'] = "Activate the padlock icon and protect user privacy";
 
 $_LANG['store']['weebly']['promo']['sidebar']['title'] = "Erőteljes Webhely Készítő";
 $_LANG['store']['weebly']['promo']['sidebar']['body'] = "Hozzon létre egy lenyűgöző weboldalt gyorsabban a Weebly-szel";
@@ -2698,6 +2675,7 @@ $_LANG['store']['websiteBuilder']['faq']['a6'] = "Minden Weebly által működte
 $_LANG['store']['websiteBuilder']['faq']['a7'] = "Igen, több előre elkészített sablon közül választhat.";
 $_LANG['store']['websiteBuilder']['faq']['a8'] = "Igen, bármikor frissíthet. Egyszerűen jelentkezzen be fiókjába, és válassza ki a frissítési lehetőséget.";
 $_LANG['store']['websiteBuilder']['trust'] = "Megbízható több mint 40,000,000 ember világszerte";
+$_LANG['store']['toggleNav'] = "Váltás a navigációra";
 $_LANG['store']['websiteBuilder']['upgrade']['title'] = "Weebly frissítés";
 $_LANG['store']['websiteBuilder']['upgrade']['required'] = "Frissítés szükséges";
 $_LANG['store']['websiteBuilder']['upgrade']['requiredDescription'] = "Ahhoz, hogy hozzáférhessen a kért funkcióhoz, frissítenie kell a Weebly Site Builder tervét.";
@@ -2723,17 +2701,6 @@ $_LANG['fraud']['highFraudRiskScore'] = "A megrendelés potenciálisan nagy kock
 $_LANG['fraud']['countryMismatch'] = "Az IP-cím szerinti ország nem egyezik meg a megadott számlázási cím országgal, így nem tudjuk elfogadni a megrendelést";
 $_LANG['fraud']['highRiskCountry'] = "Sajnos nem tudjuk elfogadni a megrendelést, mivel az országából sok csalárd tevékenység történt. Ha alternatív fizetési módot szeretne rendezni, kérjük lépjen kapcsolatba velünk.";
 $_LANG['fraud']['anonymousProxy'] = "Nem engedélyezzük, hogy a megrendeléseket egy névtelen proxy segítségével helyezzük el";
-
-$_LANG['fraud']['userVerification'] = "Felhasználói ellenőrzés";
-$_LANG['fraud']['furtherVal'] = "A megrendelés feldolgozásához további ellenőrzés szükséges. Kattintson a gombra, és kövesse a biztonságos benyújtási folyamat lépéseit. Kevesebb, mint egy perc múlva végez.";
-$_LANG['fraud']['furtherValShort'] = "További ellenőrzés szükséges. Kattintson a gombra, és kövesse a megadott lépéseket.";
-$_LANG['fraud']['submitDocs'] = "Dokumentumok benyújtása";
-$_LANG['fraud']['submitSuccessMsg'] = "Köszönöm! A dokumentációt átadtuk, és csapatunk manuálisan ellenőrzi.";
-$_LANG['fraud']['status']['notRequested'] = "Nincs igényelve";
-$_LANG['fraud']['status']['notReviewed'] = "Kérelmezet";
-$_LANG['fraud']['status']['reviewRequested'] = "Beküldve";
-$_LANG['fraud']['status']['failed'] = "Sikertelen";
-$_LANG['fraud']['status']['validated'] = "Ellenőrzött";
 
 $_LANG['navMarketConnectService']['codeguard'] = "Webhely Biztonsági mentése";
 $_LANG['store']['codeguard']['cartTitle'] = "CodeGuard Biztonsági mentés";
@@ -2819,6 +2786,8 @@ $_LANG['generatePassword']['generatedPw'] = "Generált jelszó";
 $_LANG['generatePassword']['generateNew'] = "Új jelszó generálása";
 $_LANG['generatePassword']['copyAndInsert'] = "Másolás vágólapra és beszúrás";
 
+$_LANG['close'] = "Bezár";
+
 $_LANG['setupMandate'] = "Beállítás megbízása a fizetéshez";
 
 $_LANG['invoicePaymentPendingCleared'] = "A fizetés feldolgozása folyamatban van, és automatikusan törlődik.";
@@ -2885,7 +2854,7 @@ $_LANG['paymentMethodsManage']['expiryDateNotValid'] = "A megadott lejárati id�
 $_LANG['paymentMethodsManage']['cvcNumberNotValid'] = "A megadott CVC-szám nem tűnik érvényesnek.";
 $_LANG['paymentMethodsManage']['accountType'] = "Számla Típus";
 $_LANG['paymentMethodsManage']['checking'] = "Ellenőrzés";
-$_LANG['paymentMethodsManage']['savings'] = "Megtakarítás";
+$_LANG['paymentMethodsManage']['savings'] = "Megmentés";
 $_LANG['paymentMethodsManage']['accountHolderName'] = "Számlatulajdonos neve";
 $_LANG['paymentMethodsManage']['bankName'] = "Bank Neve";
 $_LANG['paymentMethodsManage']['sortCodeRoutingNumber'] = "Rendezési kód/Útvonalszám";
@@ -2901,6 +2870,7 @@ $_LANG['store']['ssl']['shared']['encryption256'] = "256-Bit Titkosítás";
 $_LANG['store']['ssl']['shared']['issuanceTime'] = "Kibocsátási idő";
 $_LANG['store']['ssl']['shared']['greatFor'] = "Nagy-ig";
 $_LANG['store']['ssl']['shared']['warrantyValue'] = "Garancia Érték";
+$_LANG['store']['ssl']['shared']['siteSeal'] = "Trust Site Seal";
 $_LANG['store']['ssl']['shared']['freeReissues'] = "Ingyenes újbóli kiadások";
 $_LANG['store']['ssl']['shared']['browserSupport'] = "Böngésző támogatás";
 $_LANG['store']['ssl']['shared']['price'] = "Ár";
@@ -3063,7 +3033,6 @@ $_LANG['support']['successAdd'] = "A cc címzettje :email lett hozzáadva";
 $_LANG['support']['clientEmail'] = "Az ügyfél e-mail címe nem adható hozzá cc címzettként.";
 $_LANG['support']['emailNotPossible'] = "Nem lehet hozzáadni :email, mint a cc címzett";
 $_LANG['support']['invalidEmail'] = "Érvénytelen e-mail címet adott meg.";
-$_LANG['support']['ipAddress'] = "IP Cím";
 
 $_LANG['confirmAndPay'] = "Megerősítés & Fizetés";
 $_LANG['paymentPreApproved'] = "Előre jóváhagyott fizetés :gateway";
@@ -3085,6 +3054,7 @@ $_LANG['subscription']['failedpaymentscount'] = "Sikertelen fizetések száma";
 $_LANG['subscription']['errorFetchingDetails'] = "Hiba történt az előfizetési információk beszerzésekor. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal.";
 
 $_LANG['navMarketConnectService']['sitelockvpn'] = "VPN";
+$_LANG['store']['sitelockvpn']['title'] = "SiteLock VPN";
 $_LANG['store']['sitelockvpn']['tagline'] = "Korlátlan hozzáférés az internethez, adatvédelmi aggályoktól, tartalmi korlátozásoktól vagy adatkorlátoktól mentesen.";
 $_LANG['store']['sitelockvpn']['manageService'] = "Kezelje a SiteLock VPN szolgáltatást";
 $_LANG['store']['sitelockvpn']['cartShortDescription'] = "A SiteLock VPN anonim, titkosított böngészési munkamenetet tesz lehetővé bármilyen hálózati kapcsolaton keresztül.";
@@ -3198,16 +3168,8 @@ $_LANG['store']['login'] = "Bejelentkezés";
 $_LANG['store']['addToExistingPackage'] = "hogy hozzáadjuk ezt egy meglévő tárhely csomaghoz.";
 
 $_LANG['marketConnect']['sitelock']['manageSecurity'] = "Kezelje biztonságát";
-$_LANG['marketConnect']['sitelock']['ftpHost'] = "FTP Hoszt";
-$_LANG['marketConnect']['sitelock']['ftpUsername'] = "FTP Felhasználónév";
-$_LANG['marketConnect']['sitelock']['ftpPassword'] = "FTP Jelszó";
-$_LANG['marketConnect']['sitelock']['ftpPath'] = "FTP elérési út";
-$_LANG['marketConnect']['sitelock']['updateFtp'] = "Az FTP hitelesítő adatok frissítése";
-$_LANG['marketConnect']['sitelock']['manage'] = "Bejelentkezés a SiteLock-hoz";
 $_LANG['marketConnect']['sitelockvpn']['manageVPN'] = "Kezelje VPN-jét";
 $_LANG['marketConnect']['spamexperts']['manageEmail'] = "Kezelje e-mailjét";
-$_LANG['marketConnect']['spamexperts']['manage'] = "Log in to SpamExperts";
-$_LANG['marketConnect']['sitelockvpn']['manage'] = "Log in to SiteLock VPN";
 $_LANG['marketConnect']['weebly']['buildWebsite'] = "Készítse el webhelyét";
 
 $_LANG['creditCardHolderName'] = "Kártyatulajdonos neve";
@@ -3216,7 +3178,6 @@ $_LANG['redirectingToCompleteCheckout'] = "Átirányítás a pénztár befejezé
 $_LANG['paypalEmailAddress'] = "PayPal Email Cím";
 
 $_LANG['fromJust'] = "-tól csak";
-$_LANG['forJust'] = "for just";
 $_LANG['remoteTransError'] = "Távoli Tranzakciós Hiba. Lépjen kapcsolatba az ügyfélszolgálattal.";
 
 $_LANG['imageUnavailable'] = "A kép nem érhető el";
@@ -3263,7 +3224,6 @@ $_LANG['store']['marketgoo']['faqs']['a2'] = "A marketgoo egy Csináld magad esz
 $_LANG['store']['marketgoo']['faqs']['q3'] = "Miért van szükségem SEO?";
 $_LANG['store']['marketgoo']['faqs']['a3'] = "Dolgozik a SEO annak érdekében, hogy javítsa a webhely rangsorolását a keresési eredmények között. Ez vezet, hogy minél több forgalmat - és ideális esetben, átalakítani, hogy a forgalom az ügyfelek és vezet.";
 $_LANG['store']['marketgoo']['adminPreview'] = "Marketgoo tervek aktiválása jelenik meg itt";
-$_LANG['store']['marketgoo']['labelBestValue'] = "Legjobb ár-érték!";
 
 $_LANG['upTo'] = "Akár :num";
 $_LANG['weekly'] = "Heti";
@@ -3291,8 +3251,6 @@ $_LANG['twoFactor']['yubico']['friendlyName'] = "Yubico";
 $_LANG['twoFactor']['yubico']['description'] = "Kódok generálása YubiKey hardver eszköz segítségével.";
 
 $_LANG['orderForm']['selectCategory'] = "Válasszon kategóriát az oldalsáv menüből";
-
-$_LANG['marketConnect']['ox']['manage'] = "Log in to OX App Suite";
 
 $_LANG['store']['sampleProduct'] = "Ez egy minta termék";
 $_LANG['store']['emailServices']['tab']['overview'] = "Áttekintés";
@@ -3617,7 +3575,7 @@ $_LANG['cart']['selectIdnLanguageForRegister'] = "Kérjük, válassza ki a regis
 $_LANG['support']['requestor']['operator'] = "Üzemeltető";
 $_LANG['support']['requestor']['owner'] = "Tulajdonos";
 $_LANG['support']['requestor']['authorizeduser'] = "Jogosult felhasználó";
-$_LANG['support']['requestor']['registereduser'] = "Regisztrált Felhasználó";
+$_LANG['support']['requestor']['externaluser'] = "Külső felhasználó";
 $_LANG['support']['requestor']['subaccount'] = "Alfiók";
 $_LANG['support']['requestor']['guest'] = "Vendég";
 
@@ -3672,22 +3630,19 @@ $_LANG['store']['ox']['faq6']['answer'] = "Az OX Drive egy online tárolási meg
 $_LANG['store']['ox']['faq7']['question'] = "Mi az OX-dokumentumok (termelékenység)?";
 $_LANG['store']['ox']['faq7']['answer'] = "Az OX-szöveg, az OX-táblázat és az OX-kiszerelés a 3 alkalmazás a tágabb értelemben vett OX-dokumentumokon belül. Ezek az alkalmazások szöveges dokumentumok, táblázatok és bemutatók online létrehozására és szerkesztésére használhatók. Dokumentumait bárhonnan létrehozhatja és szerkesztheti az Office-szoftvermegoldása és az összes eszköze ismerős funkcióival és funkcióival.";
 $_LANG['store']['ox']['faq8']['question'] = "Milyen nyelveket támogat az OX App Suite?";
-$_LANG['store']['ox']['faq8']['answer'] = "Az OX App Suite a következő nyelveket támogatja: angol, német, spanyol, francia, olasz, holland, lengyel, 中文 简体 , 中文 繁體, 日本語 日本";
-$_LANG['store']['ox']['faq9']['question'] = "Can I migrate my existing email account from another provider?";
-$_LANG['store']['ox']['faq9']['answer'] = "Yes, we offer a self-service migration tool that is intuitive and easy to use. Migrate from all popular email services including Apple iCloud, Gmail, Outlook.com/Windows Live/Hotmail, Yahoo Mail, GMX, or T-Online, or manually enter your provider's information using IMAP/POP3 or other available preferred protocols.";
+$_LANG['store']['ox']['faq8']['answer'] = "Az OX App Suite a következő nyelveket támogatja: angol, német, dansk, cseh, spanyol, francia, olasz, lett, magyar, holland, lengyel, portugál, orosz, román, szláv, finn, svéd, 中文 简体 , 中文 繁體, 日本語 日本";
 $_LANG['store']['ox']['pricing']['features']['sla'] = "99.9% üzemidő SLA";
 $_LANG['store']['ox']['pricing']['features']['antivirus'] = "Premium Anti-Virus & Anti-Spam";
 $_LANG['store']['ox']['pricing']['features']['email'] = "email@your-domain.com";
 $_LANG['store']['ox']['pricing']['features']['size'] = "Postafiókok mérete";
 $_LANG['store']['ox']['pricing']['features']['webmail'] = "Teljes funkcionalitású Webmail";
-$_LANG['store']['ox']['pricing']['features']['imap'] = "Mobil & Asztali hozzáférés (IMAP)";
+$_LANG['store']['ox']['pricing']['features']['imap'] = "Mobile & Desktop Access (IMAP)";
 $_LANG['store']['ox']['pricing']['features']['calendars'] = "Megosztott naptárak, névjegyek, feladatok";
 $_LANG['store']['ox']['pricing']['features']['caldav'] = "CardDAV & CalDAV";
 $_LANG['store']['ox']['pricing']['features']['portal'] = "Integrált portál oldal";
-$_LANG['store']['ox']['pricing']['features']['migration'] = "Self-Service Migration Tool";
 $_LANG['store']['ox']['pricing']['features']['filestorage'] = "Felhőalapú fájltárolás";
 $_LANG['store']['ox']['pricing']['features']['collab'] = "Fájlmegosztás és együttműködés";
-$_LANG['store']['ox']['pricing']['features']['officeapps'] = "Online Office-csomag";
+$_LANG['store']['ox']['pricing']['features']['officeapps'] = "Online Office Suite";
 $_LANG['store']['ox']['pricing']['features']['appsword'] = "Word-dokumentumok létrehozása /szerkesztése";
 $_LANG['store']['ox']['pricing']['features']['appsspreadsheets'] = "Táblázatok létrehozása / szerkesztése";
 $_LANG['store']['ox']['pricing']['features']['appsslides'] = "PowerPoint létrehozása / szerkesztése";
@@ -3696,90 +3651,12 @@ $_LANG['store']['ox']['cartShortDescription'] = "Professzionális üzleti szint�
 $_LANG['store']['ox']['promo']['sidebar']['title'] = "Professzionális Email";
 $_LANG['store']['ox']['promo']['sidebar']['body'] = "Megbízható, megfizethető e-mail a kisvállalkozások számára";
 
-$_LANG['store']['addon']['wptk']['title'] = "WP Eszköztár";
-$_LANG['store']['addon']['wptk']['pleskTitle'] = "Intelligens frissítések a WordPresshez";
-$_LANG['store']['addon']['wptk']['pleskTagline'] = "Szuper töltse fel a WordPress élményét";
-$_LANG['store']['addon']['wptk']['getItNow'] = "Szerezd meg most";
-$_LANG['store']['addon']['wptk']['redefined1'] = "A WordPress Management újradefiniálva";
-$_LANG['store']['addon']['wptk']['redefined2'] = "WP Eszköztár Deluxe a";
-$_LANG['store']['addon']['wptk']['switchCpanel'] = "WP Eszköztár-t keres a cPanel-hez?";
-$_LANG['store']['addon']['wptk']['switchPlesk'] = "Wp Eszköztár-t keres Plesk számára?";
-$_LANG['store']['addon']['wptk']['introTitle'] = "A WP Eszköztár Deluxe erőteljes WordPress plugint és &amp; témakezelés, biztonsági edzés, automatizálás, klónozás és biztonsági másolat készítése/visszaállítása egyetlen felhasználóbarát irányítópultról.";
-$_LANG['store']['addon']['wptk']['introBody'] = "Vegye ki a találgatásokat és a lábmunkát a WordPress kezeléséből. Mindazon felül, amire számíthat, az egyszerű biztonsági mentéstől és a visszaállítástól kezdve a keresőmotor-index kezeléséig és az egy kattintásos WordPress bejelentkezésig, emellett automatikus intelligens frissítéseket, átmenetet és klónozást is kap a meglévő webhelyek egyszerű másolásához vagy teszteléséhez, egy kattintásos biztonsági keményítéshez, és még sok minden más!";
-$_LANG['store']['addon']['wptk']['pleskIntroTitle'] = "Az Intelligens frissítések a WordPress eszközkészlethez azonosítja és elemzi a WordPress-telepítések esetleges frissítéseit, majd vagy végrehajtja a frissítést az élő webhelyének veszélye nélkül, vagy értesítést küld arról, hogy potenciálisan veszélyes frissítés elérhető.";
-$_LANG['store']['addon']['wptk']['pleskIntroBody'] = "A legmodernebb intelligencia és automatizálás segítségével az Intelligens frissítések naprakészen, online módon és biztonságosan védik WordPress-webhelyeit, és védik az alapvető fájlok, bővítmények és témák esetleges káros frissítéseit.";
-$_LANG['store']['addon']['wptk']['midTitle1'] = "Az egyetlen Eszköztár akkor<br class=\"d-none d-md-inline-block\"> Valaha szükség van...";
-$_LANG['store']['addon']['wptk']['featureTitle1'] = "Készítsen gyorsan &amp; Könnyen";
-$_LANG['store']['addon']['wptk']['featureBody1'] = "Telepítse és konfigurálja a beépülő modulokat és a témákat, hogy testre szabhassa bármely (vagy az összes) WordPress-webhely megjelenését és hangulatát, csupán néhány kattintással.";
-$_LANG['store']['addon']['wptk']['featureTitle2'] = "Kísérletezzen biztonságosan";
-$_LANG['store']['addon']['wptk']['featureBody2'] = "Klónozzon meg minden létező WordPress-webhelyet, hogy tesztelje a terveket, a beépülő modulokat vagy a webhely bármely aspektusát. Ezután bármikor szinkronizálhatja élő webhelyét.";
-$_LANG['store']['addon']['wptk']['featureTitle3'] = "Élvezze a biztonságot";
-$_LANG['store']['addon']['wptk']['featureBody3'] = "Egyetlen gombnyomással átvizsgálja és megkeményíti WordPress-webhelyeit a kiválasztott biztonsági kockázatokkal szemben. Jelszóval védhet bizonyos webhelyeket vagy oldalakat is.";
-$_LANG['store']['addon']['wptk']['featureTitle4'] = "Automatizálja a frissítéseket";
-$_LANG['store']['addon']['wptk']['featureBody4'] = "Az Intelligens frissítések automatikusan azonosítja és elemzi a frissítéseket a kompatibilitás és a biztonság érdekében, majd telepíti vagy értesíti Önt minden problémáról, biztosítva a webhely biztonságát.";
-$_LANG['store']['addon']['wptk']['featureTitle5'] = "Klónozás &amp; Tömeges keményedés";
-$_LANG['store']['addon']['wptk']['featureBody5'] = "Hozzon létre egy duplikátumot élő webhelyéről, amellyel kísérletezhet, mindezt úgy, hogy egyetlen kattintással védi az összes WordPress-webhelyet.";
-$_LANG['store']['addon']['wptk']['featureTitle6'] = "Karbantartás Mód";
-$_LANG['store']['addon']['wptk']['featureBody6'] = "Vegye le webhelyét, miközben egyéni üzenetet jelenít meg.";
-$_LANG['store']['addon']['wptk']['smartUpdates']['featureTitle1'] = "Hogyan működik?";
-$_LANG['store']['addon']['wptk']['smartUpdates']['featureBody1'] = "A Smart Updates klónozza és frissíti az élő webhely másolatát, majd összehasonlítja a két verziót a siker meghatározása érdekében.";
-$_LANG['store']['addon']['wptk']['smartUpdates']['featureTitle2'] = "Mi van, ha egy frissítés biztonságos?";
-$_LANG['store']['addon']['wptk']['smartUpdates']['featureBody2'] = "A biztonságos frissítéseket automatikusan telepíthetjük az élő webhelyre, nem kockáztatva a weboldal feltörését vagy egyéb károsodását.";
-$_LANG['store']['addon']['wptk']['smartUpdates']['featureTitle3'] = "Mi van, ha egy frissítés nem biztonságos?";
-$_LANG['store']['addon']['wptk']['smartUpdates']['featureBody3'] = "A webhelytulajdonos kezelőfelületet kap, hogy áttekintsen minden felfedezett problémát, hogy eldöntse, folytatni kívánja-e.";
-$_LANG['store']['addon']['wptk']['plesk']['featureTitle1'] = "Egyszerűsített WordPress";
-$_LANG['store']['addon']['wptk']['plesk']['featureBody1'] = "Egy kattintással telepítő a WordPress inicializálásához és konfigurálásához az elejétől a végéig. Egy irányítópult több WordPress-példány tömeges kezeléséhez.";
-$_LANG['store']['addon']['wptk']['plesk']['featureTitle2'] = "Szakasz és teszt";
-$_LANG['store']['addon']['wptk']['plesk']['featureBody2'] = "Tesztelje az új funkciókat és ötleteket egy sandboxban, mielőtt gyártásba állítja őket - Nincs szükség pluginokra, nincs szükség külön szerverre.";
-$_LANG['store']['addon']['wptk']['plesk']['featureTitle3'] = "Biztonságos a támadások ellen";
-$_LANG['store']['addon']['wptk']['plesk']['featureBody3'] = "Alapértelmezés szerint megkeményíti webhelyét, tovább javítva a Eszköztár biztonsági szkennerével. Nincs szükség biztonsági szakértelemre.";
-$_LANG['store']['addon']['wptk']['plesk']['featureTitle4'] = "Futtatás és automatizálás";
-$_LANG['store']['addon']['wptk']['plesk']['featureBody4'] = "Egyedül vagy tömegesen hajtsa végre a WP mag, a témák vagy a beépülő modulok frissítéseit. Figyelje és futtassa az összes WordPress-webhelyet egy irányítópultról.";
-$_LANG['store']['addon']['wptk']['plesk']['featureTitle5'] = "Kivágja a komplexitást";
-$_LANG['store']['addon']['wptk']['plesk']['featureBody5'] = "Stage, Clone, Sync, Update, Migrate és egyéb összetett feladatok, egyetlen kattintással végrehajtva. Nincs több stresszes fejlesztői csapat, nincs több magas kockázatú tevékenység.";
-$_LANG['store']['addon']['wptk']['plesk']['featureTitle6'] = "Egyszerű, de nem amatőr";
-$_LANG['store']['addon']['wptk']['plesk']['featureBody6'] = "Teljes körű irányítást szerezhet a WP-CLI, a karbantartási mód, a hibakeresés, a keresőmotor-index kezelésével és egyebekkel.";
-$_LANG['store']['addon']['wptk']['midTitle2'] = "A WordPress legteljesebb, legbiztonságosabb és legsokoldalúbb eszköztára";
-$_LANG['store']['addon']['wptk']['screenshotDesc'] = "A WP Eszköztár Deluxe mindent tartalmaz, amelyre szükség van a WordPress webhelyek telepítéséhez, konfigurálásához, frissítéséhez és biztonságához. Frissítsen ma WP Eszköztár Deluxe-ra, olyan alacsony szinten, mint :price.";
-$_LANG['store']['addon']['wptk']['screenshotDescFree'] = "A WP Eszköztár Deluxe mindent tartalmaz, amelyre szükség van a WordPress webhelyek telepítéséhez, konfigurálásához, frissítéséhez és biztonságához. Frissítsen ma WP Eszköztár Deluxe-ra.";
-$_LANG['store']['addon']['wptk']['smartUpdates']['screenshotDesc'] = "Az Intelligens frissítések a WP Eszköztár mindent tartalmaz, amire szükség van a WordPress webhelyek naprakész és zökkenőmentes működéséhez. Frissítsen ma az intelligens frissítésekre, olyan alacsony áron, mint :price.";
-$_LANG['store']['addon']['wptk']['smartUpdates']['screenshotDescFree'] = "Az Intelligens frissítések a WP Eszköztár mindent tartalmaz, amire szükség van a WordPress webhelyek naprakész és zökkenőmentes működéséhez. Frissítsen az intelligens frissítésekre ma.";
-$_LANG['store']['addon']['wptk']['getStartedToday'] = "Kezdje el még ma a WP Eszköztár Deluxe használatát!";
-$_LANG['store']['addon']['wptk']['smartUpdates']['getStartedToday'] = "Kezdje el a WP Eszköztár intelligens frissítéseivel még ma!";
-$_LANG['store']['addon']['wptk']['chooseDomains'] = "Válassza ki a hozzáadni kívánt domaineket:";
-$_LANG['store']['addon']['wptk']['addAddonFor'] = "Hozzáad :addon a";
-$_LANG['store']['addon']['wptk']['unavailable'] = "Nem elérhető";
-$_LANG['store']['addon']['wptk']['for'] = "a";
-$_LANG['store']['addon']['wptk']['totalInCart'] = "Összesen a kosárban:";
-$_LANG['store']['addon']['wptk']['proceedToCheckout'] = "Tovább a pénztárhoz";
-$_LANG['store']['addon']['wptk']['loginToSeePricing'] = "Jelentkezzen be, hogy lássa a meglévő webtárhelyhez hozzáadandó árakat";
-$_LANG['store']['addon']['wptk']['loginNow'] = "Jelentkezzen be most";
-$_LANG['store']['addon']['wptk']['browsePackages'] = "Böngésszen a tárhelycsomagok között";
-$_LANG['store']['addon']['wptk']['faqQ1'] = "Mi az a WP Eszköztár?";
-$_LANG['store']['addon']['wptk']['faqA1'] = "A WP Eszköztár egy olyan kezelőfelület a WordPress számára a cPanel és a Plesk részéről, amely lehetővé teszi a WordPress webhelyek telepítését, konfigurálását és kezelését.";
-$_LANG['store']['addon']['wptk']['faqQ2'] = "Miben különbözik a WP Eszköztár Deluxe?";
-$_LANG['store']['addon']['wptk']['faqA2'] = "A WP Eszköztár Deluxe egy fizetett frissítés, amely fejlett funkciókkal rendelkezik, beleértve a bővítmény- és témakezelést, az átmenetet, a klónozást, az intelligens frissítéseket és még sok mást.";
-$_LANG['store']['addon']['wptk']['faqQ3'] = "Mi az intelligens frissítések?";
-$_LANG['store']['addon']['wptk']['faqA3'] = "Az Intelligens frissítések automatikusan teszteli a témák, a beépülő modulok, a nyelvek és a WordPress frissítéseit teljesen biztonságos környezetben, az élő webhelyet nem veszélyeztetve.";
-$_LANG['store']['addon']['wptk']['faqQ4'] = "Mennyibe kerül a WP Eszköztár?";
-$_LANG['store']['addon']['wptk']['faqA4'] = "A WP Eszköztár Deluxe kiegészítő az elérhető tárhelycsomagokhoz érhető el. Az árak megtekintéséhez kérjük <a href=\":webRoot/login.php\">bejelentkezés</a> a meglévő domainek árainak megtekintéséhez, vagy <a href=\":webRoot/register.php\">regisztrálj</a> mint új ügyfél.";
-$_LANG['store']['addon']['wptk']['faqQ5'] = "Hogyan érhetem el a WP Eszköztár-ot?";
-$_LANG['store']['addon']['wptk']['faqA5'] = "Ha rendelkezik hozzáféréssel, a WP Eszköztár ikont és linket találja meg a cPanel irányítópultján. A WP Eszköztár Deluxe felhasználók számára bejelentkezési linket is talál a tárhely szolgáltatás nézetén belül <a href=\":webRoot/clientarea.php\">ügyfélterület</a>.";
-$_LANG['store']['addon']['wptk']['faqQ6'] = "Mennyibe kerül az intelligens frissítések?";
-$_LANG['store']['addon']['wptk']['faqA6'] = "A intelligens frissítések az alkalmazható tárhelycsomagok kiegészítőjeként érhető el. Az árak megtekintéséhez kérjük <a href=\":webRoot/login.php\">bejelentkezés</a> a meglévő domainek árainak megtekintéséhez, vagy <a href=\":webRoot/register.php\">regisztrálj</a> mint új ügyfél.";
-$_LANG['store']['addon']['wptk']['faqQ7'] = "Hogyan érhetem el a WP Eszköztár-t?";
-$_LANG['store']['addon']['wptk']['faqA7'] = "Ha van hozzáférése, a Plesk irányítópultján talál egy WP Eszköztár ikont és linket. Az intelligens frissítések csak vásárlás után lesznek elérhetők.";
-
-$_LANG['store']['addon']['notFound']['productUnavailable'] = "A termék nem érhető el";
-$_LANG['store']['addon']['notFound']['productUnavailableText'] = "Ez a termék jelenleg nem elérhető. <br> Kérjük, lépjen kapcsolatba velünk, ha úgy gondolja, hogy ez hiba.";
-$_LANG['store']['addon']['notFound']['contactSupport'] = "Vegye fel a kapcsolatot az ügyfélszolgálattal";
-$_LANG['store']['addon']['notFound']['ref'] = "Ref";
-
 $_LANG['ox']['intro'] = "Itt hozhat létre és kezelhet postaládákat és felhasználókat OX App Suite-előfizetéséhez.";
 $_LANG['ox']['accountCount'] = "Ön hozta létre <span class=\"number\">:number</span> a <span class=\"limit\">:limit</span> elérhető fiókok.";
 $_LANG['ox']['refresh'] = "Frissítés";
 $_LANG['ox']['emailActions'] = "E-mail kezelés";
 $_LANG['ox']['createUser'] = "Felhasználó létrehozása";
+$_LANG['ox']['manageAccount'] = "Fiók kezelése <span class=\"email\"></span>";
 $_LANG['ox']['emailAccounts'] = "E-mail fiókok";
 $_LANG['ox']['emailAddress'] = "E-mail cím";
 $_LANG['ox']['mailboxSize'] = "Postafiók mérete";
@@ -3806,9 +3683,6 @@ $_LANG['ox']['settings']['davSettings'] = "Naptárak és névjegyek";
 $_LANG['ox']['settings']['davSettingsIntro'] = "A személyes eszközein lévő naptárak és névjegyek eléréséhez be kell állítania az ügyfelet, hogy csatlakozzon a CalDAV-hoz a naptárakhoz és a CardDAV-hoz a kapcsolatokhoz. Használja az alábbi információkat az ügyfél konfigurálásához.";
 $_LANG['ox']['settings']['caldavPassword'] = "Írja be ugyanazt a jelszót, amelyet az e-mail bejelentkezéshez használt.";
 $_LANG['ox']['settings']['serverUrl'] = "Szerver URL";
-$_LANG['ox']['settings']['migrationTitle'] = "Migration Tool";
-$_LANG['ox']['settings']['migrationIntro'] = "Migrate from all popular email services including Apple iCloud, Gmail, Outlook.com/Windows Live/Hotmail, Yahoo Mail, GMX, or T-Online, or manually enter your provider's information using IMAP/POP3 or other available preferred protocols.";
-$_LANG['ox']['settings']['migrationLaunch'] = "Launch Migration Tool";
 $_LANG['ox']['displayName'] = "Megjelenítendő név";
 $_LANG['ox']['required']['displayName'] = "A megjelenített név kötelező kitölteni.";
 $_LANG['ox']['required']['firstName'] = "A keresztnév kitöltése kötelező.";
@@ -3830,8 +3704,6 @@ $_LANG['unavailable'] = "Nem érhető el";
 $_LANG['orderForm']['idnNotEnabled'] = "Jelenleg nem támogatjuk a nemzetközi domainneveket. Próbálkozzon egy másik domainnévvel.";
 
 $_LANG['store']['ssl']['landingPage']['secureInMinutes'] = "Biztosítsa webhelyét percek alatt a teljesen automatizált kiépítéssel és üzembe helyezéssel";
-$_LANG['store']['fromJust'] = "from just";
-$_LANG['store']['forJust'] = "for just";
 
 $_LANG['goCardless']['paymentPending'] = "Olyan befizetést nyújtottak be, amely törli a bank :date. <br>A fizetés visszaigazolásakor e-mailt küldünk a fizetési visszaigazolásról.";
 $_LANG['goCardless']['automaticPayment'] = "Automatikus fizetési beállítás van érvényben ehhez a fiókhoz. Manuális fizetésre nincs szükség.";
@@ -3845,7 +3717,7 @@ $_LANG['admin']['returnToAdmin'] = "Visszatérés az adminisztrációs területr
 $_LANG['searchOurKnowledgebase'] = "Keressen tudásbázisunkban";
 $_LANG['browseProducts'] = "Keresés a termékek között";
 $_LANG['secureYourDomain'] = "Biztosítsa a domain nevet a regisztrációval még ma";
-$_LANG['secureYourDomainShort'] = "A domain név biztosítása";
+$_LANG['secureYourDomainShort'] = "Secure your domain name";
 $_LANG['transferYourDomain'] = "Adja át a domainjét";
 $_LANG['transferExtend'] = "Átvitel most, hogy meghosszabbítsa domainjét 1 évvel";
 $_LANG['howCanWeHelp'] = "Hogyan segíthetünk ma";
@@ -3863,7 +3735,6 @@ $_LANG['knowledgebase']['numArticles'] = ":num Cikkek";
 
 $_LANG['userLogin']['createAccount'] = "Fiók létrehozása";
 $_LANG['userLogin']['signInToContinue'] = "Jelentkezzen be a fiókjába a folytatáshoz.";
-$_LANG['userLogin']['notRegistered'] = "Not registered?";
 
 $_LANG['networkIssues']['scheduled'] = "Vannak :count Ütemezett hálózati befolyásoló problémák.";
 $_LANG['networkIssues']['http'] = "HTTP";
@@ -3876,210 +3747,6 @@ $_LANG['support']['postedBy'] = "Feladva által :name a :date :requestorType";
 
 $_LANG['requestor'] = "Kérelmező";
 
-$_LANG['facebook']['notAuthorized'] = "Ön nem engedélyezte a Facebook hitelesítésre való használatát. Nem használhatjuk bejelentkezésre.";
+$_LANG['facebook']['notAuthorized'] = "You did not authorize the use of Facebook for authentication. We can't use it to log you in.";
 
-$_LANG['navMarketConnectService']['siteBuilder'] = "Webhely-készítő";
-$_LANG['marketConnect']['siteBuilder']['ftpHost'] = "FTP Hoszt";
-$_LANG['marketConnect']['siteBuilder']['ftpUsername'] = "FTP Felhasználónév";
-$_LANG['marketConnect']['siteBuilder']['ftpPassword'] = "FTP Jelszó";
-$_LANG['marketConnect']['siteBuilder']['ftpPath'] = "FTP elérési út";
-$_LANG['marketConnect']['siteBuilder']['updateFtp'] = "Frissítse az FTP hitelesítő adatait";
-$_LANG['marketConnect']['siteBuilder']['manage'] = "Jelentkezzen be a Webhely-készítő alkalmazásba";
-$_LANG['store']['siteBuilder']['upgrade']['title'] = "Webhely-készítő frissítése";
-$_LANG['store']['siteBuilder']['upgrade']['required'] = "Frissítés szükséges";
-$_LANG['store']['siteBuilder']['upgrade']['requiredDescription'] = "A kért funkcionalitás eléréséhez frissítenie kell a Webhely-készítő-csomagot.";
-$_LANG['store']['siteBuilder']['upgrade']['recommended'] = "Megjelenik az ajánlott terv.";
-$_LANG['store']['siteBuilder']['upgrade']['login'] = "Az elérhető opciók megtekintéséhez jelentkezzen be.";
-$_LANG['store']['siteBuilder']['upgrade']['no'] = "Nincs elérhető frissítés";
-$_LANG['store']['siteBuilder']['upgrade']['noUpgrade'] = "Nincs elérhető frissítés ebben az időben.";
-$_LANG['store']['siteBuilder']['upgrade']['submitTicket'] = "Vegye fel a kapcsolatot az ügyfélszolgálattal";
-$_LANG['store']['siteBuilder']['upgrade']['to'] = "Frissítsen erre :product a :amount";
-$_LANG['store']['siteBuilder']['upgrade']['noPlans'] = "Nem található aktív Webhely-készítő terv.";
-$_LANG['store']['siteBuilder']['upgrade']['loggedInAs'] = "elenleg a következő néven van bejelentkezve :email";
-$_LANG['store']['siteBuilder']['upgrade']['switchUser'] = "Kijelentkezés/Váltson felhasználót";
-
-$_LANG['domainRenewal']['freeWithService'] = "Ingyenes megújítás szolgáltatással";
-$_LANG['domainRenewal']['freeWithServiceDesc'] = "A megújítás automatikusan, külön költség nélkül történik, amíg a társított szolgáltatás aktív.";
-
-$_LANG['store']['siteBuilder']['title'] = "Webhely-készítő";
-$_LANG['store']['siteBuilder']['introHeadline'] = "Az Ön online utazása <br class=\"hidden-xs\">itt kezdődik.";
-$_LANG['store']['siteBuilder']['intro1'] = "A webes jelenlét létrehozásához megfelelő platformra van szükség. Figyelje meg a fogd és vidd barkács webhely készítőnket.";
-$_LANG['store']['siteBuilder']['intro2'] = "Akár önmagát, akár vállalkozását szeretné népszerűsíteni, webhelykészítőnk sablon és varázsló alapú, irányított tartalommal, amely kezdőknek elég egyszerű, és szakemberek számára gazdag. Olyan, mint a PowerPoint, de nagyobb izomzattal, eleganciával és egyszerűséggel. Olyan megoldás, amelyet élvezni fogsz.";
-$_LANG['store']['siteBuilder']['featuresTitle'] = "Webhely-készítő Jellemzők";
-$_LANG['store']['siteBuilder']['featuresEssentials'] = "A lényeg";
-$_LANG['store']['siteBuilder']['featuresSocial'] = "Közösségi média és blog";
-$_LANG['store']['siteBuilder']['featuresStore'] = "Webáruház";
-$_LANG['store']['siteBuilder']['features']['essentials']['tagline'] = "Webhely-készítőnk a szolgáltatások teljes készletét tartalmazza.";
-$_LANG['store']['siteBuilder']['features']['blog']['tagline'] = "A történeted megosztása minden különbséget jelent. Kapcsolatba léphet látogatóival a közösségi médián és a blogján keresztül.";
-$_LANG['store']['siteBuilder']['features']['store']['tagline'] = "Az online értékesítés felpezsdítheti vállalkozását. Készítse el webhelyét boltként, butikként vagy üzletként.";
-$_LANG['store']['siteBuilder']['features']['essentials']['1'] = "Fogd és vidd szerkesztő";
-$_LANG['store']['siteBuilder']['features']['essentials']['2'] = "Építési jellemzők";
-$_LANG['store']['siteBuilder']['features']['essentials']['3'] = "Előre megtervezett építőelemek";
-$_LANG['store']['siteBuilder']['features']['essentials']['4'] = "Beépített Mobilbarát";
-$_LANG['store']['siteBuilder']['features']['essentials']['5'] = "Stock Fotók Integráció";
-$_LANG['store']['siteBuilder']['features']['essentials']['6'] = "Automatikus mentés és biztonsági mentés";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['1'] = "A Fogd és vidd szerkesztő lehetővé teszi az ügyfelek számára, hogy közvetlenül az oldalon adják hozzá és rendezzék el a webhely funkcióit, előre jelezve az elhelyezési területeket.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['2'] = "Kész elrendezési elemeket, például szöveget, gombokat, fényképeket vagy ikonokat használhat bármilyen professzionális megjelenésű webhelyelrendezés elkészítéséhez.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['3'] = "Nem kell időt pazarolnia a tartalomelrendezések manipulálására. A 350+ tartalomblokkból álló gyűjtemény technikai ismeretek nélkül segíti őket professzionális weboldalak építésében.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['4'] = "A webhelyek minden eszközön jól fognak kinézni. A sablonok 100% -ban reagálnak minden eszközre, beleértve az okostelefonokat, táblagépeket és asztali számítógépeket.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['5'] = "Hatalmazza fel webhelyét több mint 200 000 professzionális prémium fotóval, nagy felbontásban. Webhelyünk beágyazott videókat és képoptimalizálást is tartalmaz.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['6'] = "Biztos lehet benne, hogy nem veszíti el a munkát valós idejű megtakarítással. A szerkesztő automatikusan elment mindent munka közben.";
-$_LANG['store']['siteBuilder']['features']['blog']['1'] = "Blog oldal";
-$_LANG['store']['siteBuilder']['features']['blog']['2'] = "Hozzászólás tervezete";
-$_LANG['store']['siteBuilder']['features']['blog']['3'] = "Bejegyzésszerkesztő";
-$_LANG['store']['siteBuilder']['features']['blog']['4'] = "Közösségi megosztás";
-$_LANG['store']['siteBuilder']['features']['blog']['5'] = "Facebook megjegyzések és lájkok";
-$_LANG['store']['siteBuilder']['features']['blog']['6'] = "Instagram és a Twitter Csatlakozás";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['1'] = "Ossza meg történetét, és vegye fel a kapcsolatot a látogatóival egy testreszabható blog hozzáadásával a webhelyére. Konfigurálja a közzététel webhelyének megjelenését.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['2'] = "Most készítse el blogbejegyzését, hogy később elmentse és közzétegye, hogy egybeessen egy adott hírrel vagy egy speciális promócióval.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['3'] = "Módosítsa a blogbejegyzéseket, miután azok már megjelentek a beépített tartalomszerző eszköz és szerkesztő segítségével.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['4'] = "Arra ösztönözze látogatóit, hogy kedveljék és osszák meg tartalmait azáltal, hogy ikonokat adnak a közösségi média platformokhoz, mint például a Facebook, a Twitter, a LinkedIn és a Pinterest a webhelyéhez.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['5'] = "Adja meg a látogatóknak a lehetőséget, hogy megjegyzést tegyenek és lájkolják a linkelt Facebook-oldalt anélkül, hogy elhagynák a webhelyet.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['6'] = "Automatikusan mutassa be Instagram-fotóit a webhelyén minden alkalommal, amikor közzéteszi, és folyamatosan frissítse webhelye látogatóit azáltal, hogy a Twitter-fiókjának élő hírcsatornáját jeleníti meg.";
-$_LANG['store']['siteBuilder']['features']['store']['1'] = "Rugalmas tervek";
-$_LANG['store']['siteBuilder']['features']['store']['2'] = "Biztonságos és világméretű fizetések";
-$_LANG['store']['siteBuilder']['features']['store']['3'] = "Könnyű és gyors fizetés";
-$_LANG['store']['siteBuilder']['features']['store']['5'] = "Terméklista és -kezelés";
-$_LANG['store']['siteBuilder']['features']['store']['6'] = "Akciók, kedvezmények és kuponok";
-$_LANG['store']['siteBuilder']['features']['store']['7'] = "Készletgazdálkodás";
-$_LANG['store']['siteBuilder']['features']['store']['8'] = "Világszerte szállítás";
-$_LANG['store']['siteBuilder']['features']['store']['9'] = "Adó és ÁFA";
-$_LANG['store']['siteBuilder']['features']['store']['10'] = "Rendeléskezelés és nyomon követés";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['1'] = "Akár butik, üzlet vagy teljes üzlet, 10, 50 és 500 termékhez áll rendelkezésre tervek.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['2'] = "Csatlakozzon PayPal, Square, Stripe és több mint 50 megbízható hitelkártyás fizetési szolgáltatóhoz, hogy azonnal elfogadja a hitelkártyákat.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['3'] = "Gyorsabb és egyszerűbb fizetést biztosít az ügyfeleknek az opcionális regisztrációval a kijelentkezés során. Biztosítson biztonságos egyoldalas pénztárt, amely tartalmazza az ügyfelek megrendelési megjegyzéseit.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['5'] = "Válasszon több termékoldal-elrendezés közül, és testreszabhatja a kívánt leírásokat és terveket. Tegye könnyebbé az ügyfelek számára a termékek megtalálását azáltal, hogy kategóriákba rendezi őket.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['6'] = "Hozzon létre kedvezményes kuponokat vagy promóciós kódokat az értékesítés növelése érdekében. Növelje konverzióit azáltal, hogy a kedvezményes árak mellett rendszeres árakat is mutat.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['7'] = "A készletkövetés segít tudni, hogy itt az ideje feltölteni a termékkészletet, és milyen termékváltozatok a legnépszerűbbek.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['8'] = "Valós idejű szolgáltatói árakat adhat ügyfeleinek a pénztárnál, ha összekapcsolja online áruházát egy fuvarozó céggel, például USPS, FedEx, UPS, Australia Post, Canada Post stb.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['9'] = "Alkalmazzon adószámításokat bármely országra, vagy határozzon meg meghatározott zónákat. Teljes mértékben ellenőrzi az adók kiszámítását; adókat állíthat be telephelyenként, adókat adhat hozzá termékcsoportonként, vagy adómentes termékeket állíthat be.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['10'] = "Azonnal e-mailben kap értesítéseket a megrendelésekről. Kezelheti és megtekintheti az összes megrendelés áttekintését, kereshet megrendeléseket, szűrheti őket kategóriák szerint, frissítheti a megrendeléseket, az ügyfelek adatait, és adjon hozzá szállítási számot.";
-$_LANG['store']['siteBuilder']['viewPricing'] = "Az árak és a csomagok megtekintése";
-$_LANG['store']['siteBuilder']['templatesTitle'] = "Üzleti gyorsító sablonok";
-$_LANG['store']['siteBuilder']['templatesOutro'] = "Get Site Builder to view all 150+ templates that give you a quick and easy way to get started.";
-$_LANG['store']['siteBuilder']['tryFree'] = "Próbálja ki a Webhely-készítőt INGYEN";
-$_LANG['store']['siteBuilder']['tryFreeIntro'] = "Az Próbaverzió megnyitása segítségével kipróbálhatja a Webhely-készítőt, és INGYEN elkészítheti új webhelyét, előzetes költségek nélkül.";
-$_LANG['store']['siteBuilder']['tryFreeIntro2'] = "Ne fizessen semmit, amíg készen áll a közzétételre!";
-$_LANG['store']['siteBuilder']['tryFreeCta'] = "Próbálja ki még ma INGYEN a Webhely-készítőt";
-$_LANG['store']['siteBuilder']['pricingTitle'] = "Árképzés";
-$_LANG['store']['siteBuilder']['featuresLabelTitle'] = "Jellemzők";
-$_LANG['store']['siteBuilder']['featuresLabels']['0'] = "Professzionális minőségű weboldal sablonok";
-$_LANG['store']['siteBuilder']['featuresLabels']['1'] = "Felhasználó által tervezett tervezés minden készségszinthez";
-$_LANG['store']['siteBuilder']['featuresLabels']['2'] = "Egyszerű Fogd és vidd szerkesztése";
-$_LANG['store']['siteBuilder']['featuresLabels']['3'] = "Reagál a mobil eszközökre";
-$_LANG['store']['siteBuilder']['featuresLabels']['4'] = "Ingyenes képgaléria";
-$_LANG['store']['siteBuilder']['featuresLabels']['5'] = "Komponens alapú építőelemek";
-$_LANG['store']['siteBuilder']['featuresLabels']['6'] = "Blog";
-$_LANG['store']['siteBuilder']['featuresLabels']['7'] = "Automatikus elrendezések az arányos térközhöz";
-$_LANG['store']['siteBuilder']['featuresLabels']['8'] = "Kapcsolatfelvételi űrlapkészítő";
-$_LANG['store']['siteBuilder']['featuresLabels']['9'] = "Webhelyek visszaállítása";
-$_LANG['store']['siteBuilder']['featuresLabels']['10'] = "Téma öröklése";
-$_LANG['store']['siteBuilder']['featuresLabels']['11'] = "Közösségi média integráció";
-$_LANG['store']['siteBuilder']['featuresLabels']['12'] = "SEO barát";
-$_LANG['store']['siteBuilder']['featuresLabels']['13'] = "Beépített elemzések";
-$_LANG['store']['siteBuilder']['featuresLabels']['14'] = "Oldalak";
-$_LANG['store']['siteBuilder']['featuresLabels']['15'] = "E-kereskedelmi termékek";
-$_LANG['store']['siteBuilder']['compareTitle'] = "Hogyan hasonlítható össze a Webhely-készítőnk<br class=\"hidden-xs\">a versenytársakkal?";
-$_LANG['store']['siteBuilder']['compare1'] = "Felhasználó előtti tervezés minden készségszinthez";
-$_LANG['store']['siteBuilder']['compare1desc'] = "Az egyszerűség és a könnyű használat érdekében magasabb CSS-t (Customer Satisfaction Score) és jobb felhasználói élményt jelent.";
-$_LANG['store']['siteBuilder']['compare2'] = "Reagál a mobil eszközökre";
-$_LANG['store']['siteBuilder']['compare2desc'] = "Sok időt és erőfeszítést takarít meg, amikor különböző mobileszközökhöz készít weboldalakat.";
-$_LANG['store']['siteBuilder']['compare3'] = "Komponens alapú építőelemek";
-$_LANG['store']['siteBuilder']['compare3desc'] = "Az előre megtervezett építőelemek segítenek professzionális weboldalak készítésében anélkül, hogy időt pazarolnának a tartalom elrendezésével.";
-$_LANG['store']['siteBuilder']['compare4'] = "Nincs szükség kódolásra";
-$_LANG['store']['siteBuilder']['compare4desc'] = "A Webhely-készítő nem professzionális kódolókat céloz meg. Célunk, hogy a kkv-knak olyan platformot biztosítsunk, amelyet bárki használhat elegáns, bármilyen eszközön működő weboldalak létrehozására percek alatt.";
-$_LANG['store']['siteBuilder']['compare5'] = "Fizessen kevesebbet többért";
-$_LANG['store']['siteBuilder']['compare5desc'] = "Fele az ár más honlapkészítő eszközök, de megkapja az összes előnyt és jobb funkciókat.";
-
-$_LANG['store']['siteBuilder']['templates']['singlePage'] = "Egyoldalas sablonok";
-$_LANG['store']['siteBuilder']['templates']['multiPage'] = "Többoldalas sablonok";
-$_LANG['store']['siteBuilder']['templates']['eCommerce'] = "e-kereskedelmi sablonok";
-$_LANG['store']['siteBuilder']['templates']['typeLabels']['single'] = "Egyoldalas";
-$_LANG['store']['siteBuilder']['templates']['typeLabels']['multi'] = "Többoldalas";
-$_LANG['store']['siteBuilder']['templates']['typeLabels']['ecom'] = "e-kereskedelem";
-$_LANG['store']['siteBuilder']['templates']['barber-shop'] = "Borbély Shop";
-$_LANG['store']['siteBuilder']['templates']['bike-event'] = "Kerékpáros esemény";
-$_LANG['store']['siteBuilder']['templates']['childcare'] = "Gyermekgondozás";
-$_LANG['store']['siteBuilder']['templates']['conference'] = "Konferencia";
-$_LANG['store']['siteBuilder']['templates']['creative-portfolio'] = "Kreatív portfólió";
-$_LANG['store']['siteBuilder']['templates']['dj'] = "DJ";
-$_LANG['store']['siteBuilder']['templates']['gardener'] = "Kertész";
-$_LANG['store']['siteBuilder']['templates']['makeup-artist'] = "Sminkes";
-$_LANG['store']['siteBuilder']['templates']['painters'] = "Festők";
-$_LANG['store']['siteBuilder']['templates']['landscape-photographer'] = "Tájfotós";
-$_LANG['store']['siteBuilder']['templates']['rock-band'] = "Rock Zenekar";
-$_LANG['store']['siteBuilder']['templates']['seafood-restaurant'] = "Tenger gyümölcsei Étterem";
-$_LANG['store']['siteBuilder']['templates']['sushi-restaurant'] = "Sushi Étterem";
-$_LANG['store']['siteBuilder']['templates']['tailor-shop'] = "Szabó Üzlet";
-$_LANG['store']['siteBuilder']['templates']['training-courses'] = "Képzések";
-$_LANG['store']['siteBuilder']['templates']['travel-tours'] = "Utazás Túrák";
-$_LANG['store']['siteBuilder']['templates']['wedding-planner'] = "Esküvőszervező";
-$_LANG['store']['siteBuilder']['templates']['writer'] = "Író";
-$_LANG['store']['siteBuilder']['templates']['architect'] = "Építészmérnök";
-$_LANG['store']['siteBuilder']['templates']['beauty-salon'] = "Szépségszalon";
-$_LANG['store']['siteBuilder']['templates']['biography'] = "Életrajz";
-$_LANG['store']['siteBuilder']['templates']['blog-page'] = "Blog oldal";
-$_LANG['store']['siteBuilder']['templates']['burger-cafe'] = "Hamburger Kávézó";
-$_LANG['store']['siteBuilder']['templates']['car-dealer'] = "Autókereskedő";
-$_LANG['store']['siteBuilder']['templates']['catering-services'] = "Közétkeztetés";
-$_LANG['store']['siteBuilder']['templates']['city-hotel'] = "Városi Hotel";
-$_LANG['store']['siteBuilder']['templates']['cleaning-services'] = "Takarítási szolgáltatások";
-$_LANG['store']['siteBuilder']['templates']['coffee-house'] = "Kávéház";
-$_LANG['store']['siteBuilder']['templates']['crossfit'] = "Fitnesz";
-$_LANG['store']['siteBuilder']['templates']['dentist-v2'] = "Fogorvos";
-$_LANG['store']['siteBuilder']['templates']['event-venue'] = "Rendezvény helyszíne";
-$_LANG['store']['siteBuilder']['templates']['handyman'] = "Ezermester";
-$_LANG['store']['siteBuilder']['templates']['life-coach'] = "Élet-tanácsadó";
-$_LANG['store']['siteBuilder']['templates']['local-cafe'] = "Helyi kávézó";
-$_LANG['store']['siteBuilder']['templates']['locksmith'] = "Lakatos";
-$_LANG['store']['siteBuilder']['templates']['mobile-app'] = "Mobil alkalmazás";
-$_LANG['store']['siteBuilder']['templates']['mortgage-brokers'] = "Jelzálogközvetítők";
-$_LANG['store']['siteBuilder']['templates']['photographer'] = "Fotós";
-$_LANG['store']['siteBuilder']['templates']['real-estate'] = "Ingatlan";
-$_LANG['store']['siteBuilder']['templates']['spa'] = "Gyógyfürdő";
-$_LANG['store']['siteBuilder']['templates']['villa-rental'] = "Villa bérlés";
-$_LANG['store']['siteBuilder']['templates']['wedding-event'] = "Esküvői esemény";
-$_LANG['store']['siteBuilder']['templates']['animal-groomers'] = "Állatkozmetikusok";
-$_LANG['store']['siteBuilder']['templates']['bakery'] = "Pékség";
-$_LANG['store']['siteBuilder']['templates']['beauty-store'] = "Szépségbolt";
-$_LANG['store']['siteBuilder']['templates']['blinds'] = "Árnyékolók";
-$_LANG['store']['siteBuilder']['templates']['bookstore'] = "Könyvesbolt";
-$_LANG['store']['siteBuilder']['templates']['furniture-collection'] = "Bútor gyűjtemény";
-$_LANG['store']['siteBuilder']['templates']['grape-farm'] = "Szőlő farm";
-$_LANG['store']['siteBuilder']['templates']['grocery-store'] = "Élelmiszerbolt";
-$_LANG['store']['siteBuilder']['templates']['home-decor'] = "Lakberendezés";
-$_LANG['store']['siteBuilder']['templates']['toy-store'] = "Játékbolt";
-$_LANG['store']['siteBuilder']['templates']['tyre-repairs'] = "Gumiabroncs javítás";
-
-$_LANG['marketConnect']['siteBuilder']['buildWebsite'] = "Weboldal készítés";
-$_LANG['store']['siteBuilder']['cartTitle'] = "Fogékony webhelykészítő";
-$_LANG['store']['siteBuilder']['cartShortDescription'] = "Add hozzá a wwebhelykészítő, hogy a megrendelést, hogy hozzon létre egy félelmetes látszó honlap, üzlet vagy blog.";
-
-$_LANG['clickHere'] = "Kattintson ide";
-$_LANG['buy'] = "Megvesz";
-$_LANG['viewMore'] = "További információk megtekintése...";
-
-$_LANG['store']['siteBuilder']['promo']['sidebar']['title'] = "Adja hozzá Webhely-készítő";
-$_LANG['store']['siteBuilder']['promo']['sidebar']['body'] = "Készítse el weboldalát gyorsan a Webhely-készítő segítségével";
-
-$_LANG['cPanel']['wptk'] = "WordPress Toolkit";
-
-$_LANG['wptk']['goToWebsite'] = "Go to Website";
-$_LANG['wptk']['goToAdmin'] = "Admin";
-$_LANG['wptk']['createNew'] = "Create New";
-$_LANG['wptk']['installationSuccess'] = "<strong>Success!</strong> <a href=\"\" target=\"_blank\" id=\"newWordPressLink\">Visit</a> your new WordPress® install, or go to the <a href=\"\" target=\"_blank\" id=\"newWordPressAdminLink\">Admin Area</a>.";
-$_LANG['wptk']['installWordPress'] = "Install WordPress®";
-$_LANG['wptk']['installWordPressShort'] = "Install";
-
-$_LANG['api']['client']['countryError'] = "Érvényes ország szükséges";
-
-$_LANG['plesk']['mail'] = "Mail";
-$_LANG['plesk']['applications'] = "Applications";
-$_LANG['plesk']['statistics'] = "Statistics";
-$_LANG['plesk']['users'] = "Users";
-$_LANG['plesk']['manageDomains'] = "Manage Domains";
-
-$_LANG['contactCreated'] = "Contact created successfully!";
-$_LANG['contactUpdated'] = "Contact updated successfully!";
-$_LANG['contactDeleted'] = "Contact deleted successfully!";
 ////////// End of hungarian language file.  Do not place any translation strings below this line!

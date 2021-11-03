@@ -1,0 +1,58 @@
+<COMMAND TODO='uj_domain'>
+    <ID>1</ID>
+    <ATTRIBUTES>
+        <DOMAIN RIGHT="NON_PRI" OWNER="auto" ADMIN_C="auto-1"
+                TECH_C="auto-2" ZONE_C="auto-3">
+            <DNAME>proba.hu</DNAME>
+            <DNS>ns1.domain.hu</DNS>
+            <ORG>
+                <NAME_HUN>Próba Bt.</NAME_HUN>
+                <NAME_ENG>Trial Bt.</NAME_ENG>
+                <IDENT>12345678-2-42</IDENT>
+                <COUNTRY>HU</COUNTRY>
+                <ZIPCODE>1234</ZIPCODE>
+                <CITY>Budapest</CITY>
+                <STREET>Fő u.</STREET>
+                <PHONE>36-444-4444</PHONE>
+                <FAX_NO>1-222-2222</FAX_NO>
+                <STREET_NUMBER>66</STREET_NUMBER>
+            </ORG>
+            <PERSON ROLE="admin-c">
+                <LAST_NAME>Próba</LAST_NAME>
+                <FIRST_NAME>Béla</FIRST_NAME>
+                <COUNTRY>HU</COUNTRY>
+                <ZIPCODE>7400</ZIPCODE>
+                <CITY>Kaposvár</CITY>
+                <STREET>Fő u.</STREET>
+                <STREET_NUMBER>66</STREET_NUMBER>
+                <PHONE>20-222-2222</PHONE>
+                <FAX_NO>82-222-222</FAX_NO>
+                <E_MAIL>bela@proba.hu</E_MAIL>
+            </PERSON>
+            <PERSON ROLE="tech-c">
+                <LAST_NAME>Próba</LAST_NAME>
+                <FIRST_NAME>Béla</FIRST_NAME>
+                <COUNTRY>HU</COUNTRY>
+                <ZIPCODE>7400</ZIPCODE>
+                <CITY>Kaposvár</CITY>
+                <STREET>Fő u.</STREET>
+                <STREET_NUMBER>66</STREET_NUMBER>
+                <PHONE>20-222-2222</PHONE>
+                <FAX_NO>82-222-222</FAX_NO>
+                <E_MAIL>bela@proba.hu</E_MAIL>
+            </PERSON>
+            <PERSON ROLE="zone-c">
+                <LAST_NAME>Próba</LAST_NAME>
+                <FIRST_NAME>Béla</FIRST_NAME>
+                <COUNTRY>HU</COUNTRY>
+                <ZIPCODE>7400</ZIPCODE>
+                <CITY>Kaposvár</CITY>
+                <STREET>Fő u.</STREET>
+                <STREET_NUMBER>66</STREET_NUMBER>
+                <PHONE>20-222-2222</PHONE>
+                <FAX_NO>82-222-222</FAX_NO>
+                <E_MAIL>bela@proba.hu</E_MAIL>
+            </PERSON>
+        </DOMAIN>
+    </ATTRIBUTES>
+</COMMAND>
