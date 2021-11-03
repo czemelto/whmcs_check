@@ -669,25 +669,26 @@
 													<input type="tel" name="phonenumber" id="inputPhone" class="form-control" value="{$clientsdetails.phonenumber}"{if $loggedin} readonly="readonly"{/if}>
 												</div>
 											</div>
-										</div>
-										{if $hashu eq 'hashu'}
-											<div class="row">
-												<div class="col-sm-6 szig">
-													<div class="form-group">
-														<label for="szig" class="control-label">Személyi igazolvány szám</label>
-														<input type="text" name="customfield[1]" id="szig" class="form-control" value="{$clientsdetails.customfield[1]}"{if $loggedin} readonly="readonly"{/if}>
-													</div>
-												</div>
-												<div class="col-sm-6 vatNumber">
-													<div class="form-group">
-														<label for="vatNumber" class="control-label">Adószám</label>
-														<input type="text" name="customfield[2]" id="vatNumber" class="form-control" value="{$clientsdetails.customfield[2]}"{if $loggedin} readonly="readonly"{/if}>
-													</div>
-												</div>
-											</div>
-
+												{if $hashu eq 'hashu'}
+											<div class="col-sm-6" >
+												<div class="form-group" id="szigcol">
+													<label for="customfield[5]" class="control-label">Személyi igazolvány szám</label>
+                                            <input type="text" name="customfield[5]" id="szig" class="form-control" value="{$clientsdetails.customfield[5]}"{if $loggedin} readonly="readonly"{/if}>
+                                            </div></div>
 											<input type="hidden" name="companyname" value="">
+											
+											
+										<div class="col-sm-6" id="adcol">
+												<div class="form-group">
+													<label for="customfield[6]" class="control-label">Adószám</label>
+                                            <input type="text" name="customfield[6]" id="adoszam" class="form-control" value="{$clientsdetails.customfield[6]}"{if $loggedin} readonly="readonly"{/if}>
+                                            </div></div>
+                                            
+										
+										
 										{/if}
+										</div>
+									
 										
 										<h6 class="m-t-16">{$LANG.orderForm.billingAddress}</h6>
 										<div class="row">
@@ -697,16 +698,19 @@
 													<input type="text" name="companyname" id="inputCompanyName" class="form-control" value="{$clientsdetails.companyname}"{if $loggedin} readonly="readonly"{/if}>
 												</div>
 											</div>
+											{if $hashu neq 'hashu'}
 											{if $showTaxIdField}
 												<div class="col-sm-6">
 													<div class="form-group">
-														<label for="inputTaxId">
+														<label for="inputTaxId" id="inptaxidlab">
 															{lang key=\WHMCS\Billing\Tax\Vat::getLabel()} ({$LANG.orderForm.optional})
 														</label>
 														<input type="text" name="tax_id" id="inputTaxId" class="form-control" placeholder="" value="{$clientsdetails.tax_id}"{if $loggedin} readonly="readonly"{/if}>
 													</div>
 												</div>
 											{/if}
+																						{/if}
+
 											<div class="col-sm-6">
 												<div class="form-group">
 													<label for="inputAddress1" class="control-label">{$LANG.orderForm.streetAddress} {if in_array('address1', $clientsProfileOptionalFields)} ({$LANG.orderForm.optional}){/if} </label>
@@ -1881,12 +1885,19 @@
 				if( inputVal == 'personal' ) {
 					$("#inputCompanyName").parent().closest('.col-sm-6').hide();
 					$("#inputCompanyName").prop('disabled', 'disabled');
-					$("#inputTaxId").parent().closest('.col-sm-6').hide();
-					$("#inputTaxId").prop('disabled', 'disabled');
-					$(".vatNumber").hide();
-					$(".vatNumber input").prop('disabled', 'disabled');
-					$(".szig").show();
-					$(".szig input").prop('disabled', '');
+					
+					{if $hashu eq 'hashu'}
+					    $("#szig").show();
+					    $("#szigcol").show();
+					    $(".szig").show();
+					    $(".szig input").prop('disabled', '');
+					    $("#szig input").prop('disabled', '');
+					{else}
+					
+					
+                    {/if}
+						$("#adcol").hide();
+					    $("#adcol input").prop('disabled', 'disabled');
 				}
 				
 				if( inputVal == 'company' ) {
@@ -1894,10 +1905,19 @@
 					$("#inputCompanyName").prop('disabled', '');
 					$("#inputTaxId").parent().closest('.col-sm-6').show();
 					$("#inputTaxId").prop('disabled', '');
-					$(".vatNumber").show();
-					$(".vatNumber input").prop('disabled', '');
-					$(".szig").hide();
-					$(".szig input").prop('disabled', 'disabled');
+					{if $hashu eq 'hashu'}
+                        $("#adcol").show();
+                        $("#adcol input").prop('disabled', '');
+
+					{/if}
+					
+						$("#szig").hide();
+					    $("#szigcol").hide();
+					    $(".szig").hide();
+					    $(".szig input").prop('disabled', 'disabled');
+					    $("#szig input").prop('disabled', 'disabled');
+
+					
 				}
 			}
 

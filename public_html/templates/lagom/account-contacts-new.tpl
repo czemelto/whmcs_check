@@ -111,7 +111,8 @@
                                         <label for="inputCompanyName" class="control-label">{$LANG.clientareacompanyname}</label>
                                         <input type="text" name="companyname" id="inputCompanyName" value="{$formdata.companyname}" class="form-control" />
                                     </div>
-                                </div>
+                                </div>                    
+                 
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for="inputAddress1" class="control-label">{$LANG.clientareaaddress1}</label>

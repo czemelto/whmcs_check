@@ -26,13 +26,13 @@
             <div class="panel-body">
                 <div class="panel-default check domaincontact-panel-account-type">
                     <label class="account-type-label">
-                        <input type="radio" class="icheck-control" name="domaincontact_account_type" value="personal" {if $formdata.companyname eq ""} checked="checked"{/if} disabled/>
+                        <input type="radio" class="icheck-control" name="domaincontact_account_type" value="personal" {if $clientcompanyname eq ""} checked="checked"{/if} disabled/>
                         <div class="check-content">
                             <span>Magánszemély</span>
                         </div>
                     </label>
                     <label class="account-type-label">
-                        <input type="radio" class="icheck-control" name="domaincontact_account_type" value="company" {if $formdata.companyname} checked="checked"{/if} disabled/>
+                        <input type="radio" class="icheck-control" name="domaincontact_account_type" value="company" {if $clientcompanyname} checked="checked"{/if} disabled/>
                         <div class="check-content">
                             <span>Vállalkozás</span>
                         </div>
@@ -65,23 +65,7 @@
                             <input type="tel" name="phonenumber" id="inputPhone" value="{$clientphonenumber}"{if in_array('phonenumber',$uneditablefields)} disabled=""{/if} class="form-control" />
                         </div>
                     </div>
-                    <div class="col-sm-6 domaincontact-szig">
-                        <div class="form-group">
-                            <label for="domaincontact_szig" class="control-label">Személyi igazolvány szám</label>
-                            <input type="text" name="szigszam" id="domaincontact_szig" class="form-control" value="{($customfields[0]['value'])}" disabled>
-                            <input type="hidden" name="customfield[1]" class="form-control" value="{($customfields[0]['value'])}">
 
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <label for="inputDCTaxId">
-                                {lang key=\WHMCS\Billing\Tax\Vat::getLabel()} ({$LANG.orderForm.optional})
-                            </label>
-                            <input type="text" name="adoszam" id="inputDCTaxId" class="form-control" placeholder="{lang key=\WHMCS\Billing\Tax\Vat::getLabel()} ({$LANG.orderForm.optional})" value="{$customfields[1]['value']}" disabled>
-                            <input type="hidden" name="customfield[2]" id="inputDCTaxId" class="form-control" value="{$customfields[1]['value']}">
-                        </div>
-                    </div>
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label for="inputCompanyName" class="control-label">{$LANG.clientareacompanyname}</label>
@@ -95,14 +79,38 @@
         <div class="panel panel-default panel-form">
             <div class="panel-body">
                 <div class="row">
+                    
                     {if $showTaxIdField}
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label for="inputTaxId" class="control-label">{lang key=$taxIdLabel}</label>
-                                <input type="text" name="tax_id" id="inputTaxId" class="form-control" value="{$clientTaxId}"{if in_array('tax_id', $uneditablefields)} disabled="disabled"{/if} />
+                                <label for="inputDCTaxId" id="inptaxlab" class="control-label">{lang key=$taxIdLabel}</label>
+                                <input type="text" name="tax_id_showing" id="inputDCTaxId" class="form-control" value="{$clientTaxId}"{if in_array('tax_id', $uneditablefields)} disabled="disabled"{/if} disabled="disabled"/>
+                                <input type="hidden" name="tax_id" id="inputDCTaxId_hidden" class="form-control" value="{$clientTaxId}">
                             </div>
                         </div>
                     {/if}
+                    
+                    
+                    
+                 <div class="col-sm-6 domaincontact-szig">
+                        <div class="form-group">
+                            <label for="domaincontact_szig" class="control-label">Személyi igazolvány szám</label>
+                            <input type="text" name="szigszam" id="domaincontact_szig" class="form-control" value="{$customfields[array_search(5, array_column($customfields, 'id'))]['value']}" disabled>
+                            <input type="hidden" name="customfield[5]" class="form-control" value="{$customfields[array_search(5, array_column($customfields, 'id'))]['value']}">
+
+                        </div>
+                    </div>
+
+                 <div class="col-sm-6 hu_adoszam">
+                        <div class="form-group">
+                            <label for="hu_adoszam_input" id="hu_adoszam" class="control-label">Adószám .hu domainhez</label>
+                            <input type="text" name="adoszam" id="hu_adoszam_input" class="form-control" value="{$customfields[array_search(6, array_column($customfields, 'id'))]['value']}" disabled>
+                            <input type="hidden" name="customfield[6]" class="form-control" value="{$customfields[array_search(6, array_column($customfields, 'id'))]['value']}">
+
+                        </div>
+                    </div>
+
+
 
                     <div class="col-sm-6">
                         <div class="form-group">
@@ -291,17 +299,27 @@
                 if( inputVal == 'personal' ) {
                     $("#inputCompanyName").parent().closest('.col-sm-6').hide();
                     $("#inputCompanyName").prop('disabled', 'disabled');
+                    //$("#inputDCTaxId").parent().closest('.col-sm-6').show();
+                    //$('#inptaxlab').text("Személyi igazolvány szám");
+
                     $("#inputDCTaxId").parent().closest('.col-sm-6').hide();
                     $("#inputDCTaxId").prop('disabled', 'disabled');
                     $(".domaincontact-szig").show();
+                    $("#hu_adoszam").hide();
+                    $("#hu_adoszam_input").hide();
+                    
+                    
+                    
                 }
 
                 if( inputVal == 'company' ) {
                     $("#inputCompanyName").parent().closest('.col-sm-6').show();
                     $("#inputCompanyName").prop('disabled', '');
                     $("#inputDCTaxId").parent().closest('.col-sm-6').show();
-                    $(".domaincontact-szig").hide();
-                    $(".domaincontact-szig input").prop('disabled', 'disabled');
+                    $("#hu_adoszam").show();
+                    $("#hu_adoszam_input").show();
+                                        $(".domaincontact-szig").hide();
+
                 }
             }
 

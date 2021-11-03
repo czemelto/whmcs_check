@@ -84,8 +84,8 @@ class Config
 
     static function get_credentials_in_plaintext() {
         return [
-            "api_username" => "sos",
-            "api_password" => "3edcvbnm",
+            "api_username" => "mosonyi",
+            "api_password" => "bVjL6hK9dE2Q4dZ8U6A",
             "public_key_fingerprint" => "FFFEE51355E0D43E",
             "api_endpoint" => "test"
         ];
